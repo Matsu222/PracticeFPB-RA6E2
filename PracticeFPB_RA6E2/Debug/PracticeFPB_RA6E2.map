@@ -81,152 +81,162 @@
 20000400 20000400       18     4         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.ram_noinit)
 20000400 20000400       18     1                 g_clock_freq
 20000418 20000418        0     1         __ram_noinit$$Limit = .
-20000418 20000418      998     4 __ram_zero$$
+20000418 20000418      d98     4 __ram_zero$$
 20000418 20000418        0     1         __ram_zero$$Base = .
-20000418 20000418       10     4         ./src/spi_slv_thread_entry.o:(.bss.tx_buf)
-20000418 20000418       10     1                 tx_buf
-20000428 20000428       10     4         ./src/spi_slv_thread_entry.o:(.bss.rx_buf)
-20000428 20000428       10     1                 rx_buf
-20000438 20000438       10     4         ./ra_gen/common_data.o:(.bss.g_external_irq9_ctrl)
-20000438 20000438       10     1                 g_external_irq9_ctrl
-20000448 20000448        8     4         ./ra_gen/common_data.o:(.bss.g_ioport_ctrl)
-20000448 20000448        8     1                 g_ioport_ctrl
-20000450 20000450       30     4         ./ra_gen/hal_data.o:(.bss.g_spi1_ctrl)
-20000450 20000450       30     1                 g_spi1_ctrl
-20000480 20000480       20     4         ./ra_gen/hal_data.o:(.bss.g_timer0_ctrl)
-20000480 20000480       20     1                 g_timer0_ctrl
-200004a0 200004a0       60     4         ./ra_gen/led1_thread.o:(.bss.led1_thread_memory)
-200004a0 200004a0       60     1                 led1_thread_memory
-20000500 20000500        4     4         ./ra_gen/led1_thread.o:(.bss.led1_thread)
-20000500 20000500        4     1                 led1_thread
-20000504 20000504       60     4         ./ra_gen/led2_thread.o:(.bss.led2_thread_memory)
-20000504 20000504       60     1                 led2_thread_memory
-20000564 20000564        4     4         ./ra_gen/led2_thread.o:(.bss.led2_thread)
-20000564 20000564        4     1                 led2_thread
-20000568 20000568        4     4         ./ra_gen/main.o:(.bss.g_fsp_common_initialized_semaphore)
-20000568 20000568        4     1                 g_fsp_common_initialized_semaphore
-2000056c 2000056c        1     1         ./ra_gen/main.o:(.bss.g_fsp_common_initialized)
-2000056c 2000056c        1     1                 g_fsp_common_initialized
-20000570 20000570        4     4         ./ra_gen/main.o:(.bss.g_fsp_common_thread_count)
-20000570 20000570        4     1                 g_fsp_common_thread_count
-20000574 20000574       48     4         ./ra_gen/main.o:(.bss.g_fsp_common_initialized_semaphore_memory)
-20000574 20000574       48     1                 g_fsp_common_initialized_semaphore_memory
-200005bc 200005bc       60     4         ./ra_gen/main.o:(.bss.vApplicationGetIdleTaskMemory.xIdleTaskTCB)
-200005bc 200005bc       60     1                 vApplicationGetIdleTaskMemory.xIdleTaskTCB
-2000061c 2000061c      200     4         ./ra_gen/main.o:(.bss.vApplicationGetIdleTaskMemory.uxIdleTaskStack)
-2000061c 2000061c      200     1                 vApplicationGetIdleTaskMemory.uxIdleTaskStack
-2000081c 2000081c       60     4         ./ra_gen/main.o:(.bss.vApplicationGetTimerTaskMemory.xTimerTaskTCB)
-2000081c 2000081c       60     1                 vApplicationGetTimerTaskMemory.xTimerTaskTCB
-2000087c 2000087c      200     4         ./ra_gen/main.o:(.bss.vApplicationGetTimerTaskMemory.uxTimerTaskStack)
-2000087c 2000087c      200     1                 vApplicationGetTimerTaskMemory.uxTimerTaskStack
-20000a7c 20000a7c       60     4         ./ra_gen/spi_slv_thread.o:(.bss.spi_slv_thread_memory)
-20000a7c 20000a7c       60     1                 spi_slv_thread_memory
-20000adc 20000adc        4     4         ./ra_gen/spi_slv_thread.o:(.bss.spi_slv_thread)
-20000adc 20000adc        4     1                 spi_slv_thread
-20000ae0 20000ae0        4     4         ./ra/fsp/src/rm_freertos_port/port.o:(.bss.uxCriticalNesting)
-20000ae0 20000ae0        4     1                 uxCriticalNesting
-20000ae4 20000ae4        4     4         ./ra/fsp/src/rm_freertos_port/port.o:(.bss.g_mask_level_before_disable)
-20000ae4 20000ae4        4     1                 g_mask_level_before_disable
-20000ae8 20000ae8        4     4         ./ra/fsp/src/r_spi/r_spi.o:(.bss.r_spi_write_read_common.dummy_rx)
-20000ae8 20000ae8        4     1                 r_spi_write_read_common.dummy_rx
-20000aec 20000aec        4     4         ./ra/fsp/src/r_spi/r_spi.o:(.bss.r_spi_write_read_common.dummy_tx)
-20000aec 20000aec        4     1                 r_spi_write_read_common.dummy_tx
-20000af0 20000af0       40     4         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.bss.g_bsp_group_irq_sources)
-20000af0 20000af0       40     1                 g_bsp_group_irq_sources
-20000b30 20000b30        4     4         ./ra/fsp/src/bsp/mcu/all/bsp_io.o:(.bss.g_protect_pfswe_counter)
-20000b30 20000b30        4     1                 g_protect_pfswe_counter
-20000b34 20000b34       18     4         ./ra/fsp/src/bsp/mcu/all/bsp_irq.o:(.bss.gp_renesas_isr_context)
-20000b34 20000b34       18     1                 gp_renesas_isr_context
-20000b4c 20000b4c        a     2         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.bss.g_protect_counters)
-20000b4c 20000b4c        a     1                 g_protect_counters
-20000b58 20000b58        4     4         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.bss.SystemCoreClock)
-20000b58 20000b58        4     1                 SystemCoreClock
-20000b5c 20000b5c       50     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.bss.xQueueRegistry)
-20000b5c 20000b5c       50     1                 xQueueRegistry
-20000bac 20000bac        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.pxCurrentTCB)
-20000bac 20000bac        4     1                 pxCurrentTCB
-20000bb0 20000bb0        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.uxTaskNumber)
-20000bb0 20000bb0        4     1                 uxTaskNumber
-20000bb4 20000bb4        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xSchedulerRunning)
-20000bb4 20000bb4        4     1                 xSchedulerRunning
-20000bb8 20000bb8       14     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xTasksWaitingTermination)
-20000bb8 20000bb8       14     1                 xTasksWaitingTermination
-20000bcc 20000bcc        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.uxDeletedTasksWaitingCleanUp)
-20000bcc 20000bcc        4     1                 uxDeletedTasksWaitingCleanUp
-20000bd0 20000bd0        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.uxCurrentNumberOfTasks)
-20000bd0 20000bd0        4     1                 uxCurrentNumberOfTasks
-20000bd4 20000bd4        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.uxSchedulerSuspended)
-20000bd4 20000bd4        4     1                 uxSchedulerSuspended
-20000bd8 20000bd8        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xTickCount)
-20000bd8 20000bd8        4     1                 xTickCount
-20000bdc 20000bdc       64     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.pxReadyTasksLists)
-20000bdc 20000bdc       64     1                 pxReadyTasksLists
-20000c40 20000c40        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.uxTopReadyPriority)
-20000c40 20000c40        4     1                 uxTopReadyPriority
-20000c44 20000c44       14     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xSuspendedTaskList)
-20000c44 20000c44       14     1                 xSuspendedTaskList
-20000c58 20000c58        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xYieldPendings)
-20000c58 20000c58        4     1                 xYieldPendings
-20000c5c 20000c5c       14     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xPendingReadyList)
-20000c5c 20000c5c       14     1                 xPendingReadyList
-20000c70 20000c70        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xNextTaskUnblockTime)
-20000c70 20000c70        4     1                 xNextTaskUnblockTime
-20000c74 20000c74        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xIdleTaskHandles.0)
-20000c74 20000c74        4     1                 xIdleTaskHandles.0
-20000c78 20000c78        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xPendedTicks)
-20000c78 20000c78        4     1                 xPendedTicks
-20000c7c 20000c7c        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.pxDelayedTaskList)
-20000c7c 20000c7c        4     1                 pxDelayedTaskList
-20000c80 20000c80        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.pxOverflowDelayedTaskList)
-20000c80 20000c80        4     1                 pxOverflowDelayedTaskList
-20000c84 20000c84        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xNumOfOverflows)
-20000c84 20000c84        4     1                 xNumOfOverflows
-20000c88 20000c88       14     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xDelayedTaskList1)
-20000c88 20000c88       14     1                 xDelayedTaskList1
-20000c9c 20000c9c       14     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xDelayedTaskList2)
-20000c9c 20000c9c       14     1                 xDelayedTaskList2
-20000cb0 20000cb0        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.bss.xTimerQueue)
-20000cb0 20000cb0        4     1                 xTimerQueue
-20000cb4 20000cb4        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.bss.xTimerTaskHandle)
-20000cb4 20000cb4        4     1                 xTimerTaskHandle
-20000cb8 20000cb8        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.bss.pxCurrentTimerList)
-20000cb8 20000cb8        4     1                 pxCurrentTimerList
-20000cbc 20000cbc        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.bss.pxOverflowTimerList)
-20000cbc 20000cbc        4     1                 pxOverflowTimerList
-20000cc0 20000cc0        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.bss.prvSampleTimeNow.xLastTime)
-20000cc0 20000cc0        4     1                 prvSampleTimeNow.xLastTime
-20000cc4 20000cc4       14     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.bss.xActiveTimerList1)
-20000cc4 20000cc4       14     1                 xActiveTimerList1
-20000cd8 20000cd8       14     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.bss.xActiveTimerList2)
-20000cd8 20000cd8       14     1                 xActiveTimerList2
-20000cec 20000cec       48     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.bss.prvCheckForValidListAndQueue.xStaticTimerQueue)
-20000cec 20000cec       48     1                 prvCheckForValidListAndQueue.xStaticTimerQueue
-20000d34 20000d34       78     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.bss.prvCheckForValidListAndQueue.ucStaticTimerQueueStorage)
-20000d34 20000d34       78     1                 prvCheckForValidListAndQueue.ucStaticTimerQueueStorage
-20000dac 20000dac        4     4         C:\Renesas\e2_studio\toolchains\llvm_arm\ATfE-21.1.1-Windows-x86_64\bin\..\lib\clang-runtimes/arm-none-eabi/armv8m.main_hard_fp_exn_rtti_unaligned_size\lib\libc.a(libc_picolib_machine_arm_tls.c.o):(.bss.__tls)
-20000dac 20000dac        4     1                 __tls
-20000db0 20000db0        0     1         __ram_zero$$Limit = .
-20000db0 20000db0        0     1 __ram_tdata$$
-20000db0 20000db0        0     1         __ram_tdata$$Base = .
-20000db0 20000db0        0     1         __ram_tdata$$Load = LOADADDR(__ram_tdata$$)
-20000db0 20000db0        0     1         __ram_tdata$$Limit = .
-20000db0 20000db0        0     1 __ram_tbss$$
-20000db0 20000db0        0     1         __ram_tbss$$Base = .
-20000db0 20000db0        0     1         __ram_tbss$$Limit = .
-20000db0 20000db0      c00     8 __ram_thread_stack$$
-20000db0 20000db0        0     1         __ram_thread_stack$$Base = .
-20000db0 20000db0      400     8         ./ra_gen/led1_thread.o:(.stack.led1_thread)
-20000db0 20000db0      400     1                 led1_thread_stack
-200011b0 200011b0      400     8         ./ra_gen/led2_thread.o:(.stack.led2_thread)
-200011b0 200011b0      400     1                 led2_thread_stack
-200015b0 200015b0      400     8         ./ra_gen/spi_slv_thread.o:(.stack.spi_slv_thread)
-200015b0 200015b0      400     1                 spi_slv_thread_stack
-200019b0 200019b0        0     1         __ram_thread_stack$$Limit = .
-20001c00 20001c00        0     1 .ram.endof
-20001c00 20001c00        0     1         __ddsc_RAM_END = .
-20001c00 20001c00        0     1 .ram.flat_nsc
-20001c00 20001c00        0     1         __ddsc_RAM_NSC = .
-      58       58     416a     4 __flash_readonly$$
+20000418 20000418        1     1         ./src/spi_slv_thread_entry.o:(.bss.count)
+20000418 20000418        1     1                 count
+20000419 20000419        1     1         ./src/spi_slv_thread_entry.o:(.bss.last_count)
+20000419 20000419        1     1                 last_count
+2000041a 2000041a       ff     1         ./src/spi_slv_thread_entry.o:(.bss.tx_buf)
+2000041a 2000041a       ff     1                 tx_buf
+20000519 20000519       ff     1         ./src/spi_slv_thread_entry.o:(.bss.rx_buf)
+20000519 20000519       ff     1                 rx_buf
+20000618 20000618       ff     4         ./src/spi_slv_thread_entry.o:(.bss.received_buf)
+20000618 20000618       ff     1                 received_buf
+20000718 20000718       ff     4         ./src/spi_slv_thread_entry.o:(.bss.return_buf)
+20000718 20000718       ff     1                 return_buf
+20000818 20000818       10     4         ./ra_gen/common_data.o:(.bss.g_external_irq9_ctrl)
+20000818 20000818       10     1                 g_external_irq9_ctrl
+20000828 20000828        8     4         ./ra_gen/common_data.o:(.bss.g_ioport_ctrl)
+20000828 20000828        8     1                 g_ioport_ctrl
+20000830 20000830       20     4         ./ra_gen/hal_data.o:(.bss.g_timer1_ctrl)
+20000830 20000830       20     1                 g_timer1_ctrl
+20000850 20000850       30     4         ./ra_gen/hal_data.o:(.bss.g_spi1_ctrl)
+20000850 20000850       30     1                 g_spi1_ctrl
+20000880 20000880       20     4         ./ra_gen/hal_data.o:(.bss.g_timer0_ctrl)
+20000880 20000880       20     1                 g_timer0_ctrl
+200008a0 200008a0       60     4         ./ra_gen/led1_thread.o:(.bss.led1_thread_memory)
+200008a0 200008a0       60     1                 led1_thread_memory
+20000900 20000900        4     4         ./ra_gen/led1_thread.o:(.bss.led1_thread)
+20000900 20000900        4     1                 led1_thread
+20000904 20000904       60     4         ./ra_gen/led2_thread.o:(.bss.led2_thread_memory)
+20000904 20000904       60     1                 led2_thread_memory
+20000964 20000964        4     4         ./ra_gen/led2_thread.o:(.bss.led2_thread)
+20000964 20000964        4     1                 led2_thread
+20000968 20000968        4     4         ./ra_gen/main.o:(.bss.g_fsp_common_initialized_semaphore)
+20000968 20000968        4     1                 g_fsp_common_initialized_semaphore
+2000096c 2000096c        1     1         ./ra_gen/main.o:(.bss.g_fsp_common_initialized)
+2000096c 2000096c        1     1                 g_fsp_common_initialized
+20000970 20000970        4     4         ./ra_gen/main.o:(.bss.g_fsp_common_thread_count)
+20000970 20000970        4     1                 g_fsp_common_thread_count
+20000974 20000974       48     4         ./ra_gen/main.o:(.bss.g_fsp_common_initialized_semaphore_memory)
+20000974 20000974       48     1                 g_fsp_common_initialized_semaphore_memory
+200009bc 200009bc       60     4         ./ra_gen/main.o:(.bss.vApplicationGetIdleTaskMemory.xIdleTaskTCB)
+200009bc 200009bc       60     1                 vApplicationGetIdleTaskMemory.xIdleTaskTCB
+20000a1c 20000a1c      200     4         ./ra_gen/main.o:(.bss.vApplicationGetIdleTaskMemory.uxIdleTaskStack)
+20000a1c 20000a1c      200     1                 vApplicationGetIdleTaskMemory.uxIdleTaskStack
+20000c1c 20000c1c       60     4         ./ra_gen/main.o:(.bss.vApplicationGetTimerTaskMemory.xTimerTaskTCB)
+20000c1c 20000c1c       60     1                 vApplicationGetTimerTaskMemory.xTimerTaskTCB
+20000c7c 20000c7c      200     4         ./ra_gen/main.o:(.bss.vApplicationGetTimerTaskMemory.uxTimerTaskStack)
+20000c7c 20000c7c      200     1                 vApplicationGetTimerTaskMemory.uxTimerTaskStack
+20000e7c 20000e7c       60     4         ./ra_gen/spi_slv_thread.o:(.bss.spi_slv_thread_memory)
+20000e7c 20000e7c       60     1                 spi_slv_thread_memory
+20000edc 20000edc        4     4         ./ra_gen/spi_slv_thread.o:(.bss.spi_slv_thread)
+20000edc 20000edc        4     1                 spi_slv_thread
+20000ee0 20000ee0        4     4         ./ra/fsp/src/rm_freertos_port/port.o:(.bss.uxCriticalNesting)
+20000ee0 20000ee0        4     1                 uxCriticalNesting
+20000ee4 20000ee4        4     4         ./ra/fsp/src/rm_freertos_port/port.o:(.bss.g_mask_level_before_disable)
+20000ee4 20000ee4        4     1                 g_mask_level_before_disable
+20000ee8 20000ee8        4     4         ./ra/fsp/src/r_spi/r_spi.o:(.bss.r_spi_write_read_common.dummy_rx)
+20000ee8 20000ee8        4     1                 r_spi_write_read_common.dummy_rx
+20000eec 20000eec        4     4         ./ra/fsp/src/r_spi/r_spi.o:(.bss.r_spi_write_read_common.dummy_tx)
+20000eec 20000eec        4     1                 r_spi_write_read_common.dummy_tx
+20000ef0 20000ef0       40     4         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.bss.g_bsp_group_irq_sources)
+20000ef0 20000ef0       40     1                 g_bsp_group_irq_sources
+20000f30 20000f30        4     4         ./ra/fsp/src/bsp/mcu/all/bsp_io.o:(.bss.g_protect_pfswe_counter)
+20000f30 20000f30        4     1                 g_protect_pfswe_counter
+20000f34 20000f34       18     4         ./ra/fsp/src/bsp/mcu/all/bsp_irq.o:(.bss.gp_renesas_isr_context)
+20000f34 20000f34       18     1                 gp_renesas_isr_context
+20000f4c 20000f4c        a     2         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.bss.g_protect_counters)
+20000f4c 20000f4c        a     1                 g_protect_counters
+20000f58 20000f58        4     4         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.bss.SystemCoreClock)
+20000f58 20000f58        4     1                 SystemCoreClock
+20000f5c 20000f5c       50     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.bss.xQueueRegistry)
+20000f5c 20000f5c       50     1                 xQueueRegistry
+20000fac 20000fac        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.pxCurrentTCB)
+20000fac 20000fac        4     1                 pxCurrentTCB
+20000fb0 20000fb0        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.uxTaskNumber)
+20000fb0 20000fb0        4     1                 uxTaskNumber
+20000fb4 20000fb4        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xSchedulerRunning)
+20000fb4 20000fb4        4     1                 xSchedulerRunning
+20000fb8 20000fb8       14     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xTasksWaitingTermination)
+20000fb8 20000fb8       14     1                 xTasksWaitingTermination
+20000fcc 20000fcc        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.uxDeletedTasksWaitingCleanUp)
+20000fcc 20000fcc        4     1                 uxDeletedTasksWaitingCleanUp
+20000fd0 20000fd0        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.uxCurrentNumberOfTasks)
+20000fd0 20000fd0        4     1                 uxCurrentNumberOfTasks
+20000fd4 20000fd4        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.uxSchedulerSuspended)
+20000fd4 20000fd4        4     1                 uxSchedulerSuspended
+20000fd8 20000fd8        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xTickCount)
+20000fd8 20000fd8        4     1                 xTickCount
+20000fdc 20000fdc       64     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.pxReadyTasksLists)
+20000fdc 20000fdc       64     1                 pxReadyTasksLists
+20001040 20001040        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.uxTopReadyPriority)
+20001040 20001040        4     1                 uxTopReadyPriority
+20001044 20001044       14     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xSuspendedTaskList)
+20001044 20001044       14     1                 xSuspendedTaskList
+20001058 20001058        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xYieldPendings)
+20001058 20001058        4     1                 xYieldPendings
+2000105c 2000105c       14     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xPendingReadyList)
+2000105c 2000105c       14     1                 xPendingReadyList
+20001070 20001070        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xNextTaskUnblockTime)
+20001070 20001070        4     1                 xNextTaskUnblockTime
+20001074 20001074        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xIdleTaskHandles.0)
+20001074 20001074        4     1                 xIdleTaskHandles.0
+20001078 20001078        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xPendedTicks)
+20001078 20001078        4     1                 xPendedTicks
+2000107c 2000107c        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.pxDelayedTaskList)
+2000107c 2000107c        4     1                 pxDelayedTaskList
+20001080 20001080        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.pxOverflowDelayedTaskList)
+20001080 20001080        4     1                 pxOverflowDelayedTaskList
+20001084 20001084        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xNumOfOverflows)
+20001084 20001084        4     1                 xNumOfOverflows
+20001088 20001088       14     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xDelayedTaskList1)
+20001088 20001088       14     1                 xDelayedTaskList1
+2000109c 2000109c       14     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.bss.xDelayedTaskList2)
+2000109c 2000109c       14     1                 xDelayedTaskList2
+200010b0 200010b0        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.bss.xTimerQueue)
+200010b0 200010b0        4     1                 xTimerQueue
+200010b4 200010b4        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.bss.xTimerTaskHandle)
+200010b4 200010b4        4     1                 xTimerTaskHandle
+200010b8 200010b8        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.bss.pxCurrentTimerList)
+200010b8 200010b8        4     1                 pxCurrentTimerList
+200010bc 200010bc        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.bss.pxOverflowTimerList)
+200010bc 200010bc        4     1                 pxOverflowTimerList
+200010c0 200010c0        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.bss.prvSampleTimeNow.xLastTime)
+200010c0 200010c0        4     1                 prvSampleTimeNow.xLastTime
+200010c4 200010c4       14     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.bss.xActiveTimerList1)
+200010c4 200010c4       14     1                 xActiveTimerList1
+200010d8 200010d8       14     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.bss.xActiveTimerList2)
+200010d8 200010d8       14     1                 xActiveTimerList2
+200010ec 200010ec       48     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.bss.prvCheckForValidListAndQueue.xStaticTimerQueue)
+200010ec 200010ec       48     1                 prvCheckForValidListAndQueue.xStaticTimerQueue
+20001134 20001134       78     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.bss.prvCheckForValidListAndQueue.ucStaticTimerQueueStorage)
+20001134 20001134       78     1                 prvCheckForValidListAndQueue.ucStaticTimerQueueStorage
+200011ac 200011ac        4     4         C:\Renesas\e2_studio\toolchains\llvm_arm\ATfE-21.1.1-Windows-x86_64\bin\..\lib\clang-runtimes/arm-none-eabi/armv8m.main_hard_fp_exn_rtti_unaligned_size\lib\libc.a(libc_picolib_machine_arm_tls.c.o):(.bss.__tls)
+200011ac 200011ac        4     1                 __tls
+200011b0 200011b0        0     1         __ram_zero$$Limit = .
+200011b0 200011b0        0     1 __ram_tdata$$
+200011b0 200011b0        0     1         __ram_tdata$$Base = .
+200011b0 200011b0        0     1         __ram_tdata$$Load = LOADADDR(__ram_tdata$$)
+200011b0 200011b0        0     1         __ram_tdata$$Limit = .
+200011b0 200011b0        0     1 __ram_tbss$$
+200011b0 200011b0        0     1         __ram_tbss$$Base = .
+200011b0 200011b0        0     1         __ram_tbss$$Limit = .
+200011b0 200011b0      c00     8 __ram_thread_stack$$
+200011b0 200011b0        0     1         __ram_thread_stack$$Base = .
+200011b0 200011b0      400     8         ./ra_gen/led1_thread.o:(.stack.led1_thread)
+200011b0 200011b0      400     1                 led1_thread_stack
+200015b0 200015b0      400     8         ./ra_gen/led2_thread.o:(.stack.led2_thread)
+200015b0 200015b0      400     1                 led2_thread_stack
+200019b0 200019b0      400     8         ./ra_gen/spi_slv_thread.o:(.stack.spi_slv_thread)
+200019b0 200019b0      400     1                 spi_slv_thread_stack
+20001db0 20001db0        0     1         __ram_thread_stack$$Limit = .
+20002000 20002000        0     1 .ram.endof
+20002000 20002000        0     1         __ddsc_RAM_END = .
+20002000 20002000        0     1 .ram.flat_nsc
+20002000 20002000        0     1         __ddsc_RAM_NSC = .
+      58       58     43a2     4 __flash_readonly$$
       58       58        0     1         __flash_readonly$$Base = .
       58       58       1c     2         ./src/ext_irq.o:(.text.g_irq9_callback)
       58       58        0     1                 $t
@@ -240,420 +250,430 @@
      14c      14c       e6     4         ./src/led2_thread_entry.o:(.text.led2_thread_entry)
      14c      14c        0     1                 $t
      14d      14d       e6     1                 led2_thread_entry
-     234      234       54     4         ./src/spi_slv_thread_entry.o:(.text.spi_slv_thread_entry)
+     234      234       80     4         ./src/spi_slv_thread_entry.o:(.text.spi_slv_thread_entry)
      234      234        0     1                 $t
-     235      235       54     1                 spi_slv_thread_entry
-     288      288       3a     2         ./src/spi_slv_thread_entry.o:(.text.spi1_callback)
-     288      288        0     1                 $t
-     289      289       3a     1                 spi1_callback
-     2c2      2c2       20     2         ./src/timer.o:(.text.g_timer0_callback)
-     2c2      2c2        0     1                 $t
-     2c3      2c3       20     1                 g_timer0_callback
-     2e2      2e2        2     2         ./ra_gen/common_data.o:(.text.g_common_init)
-     2e2      2e2        0     1                 $t
-     2e3      2e3        2     1                 g_common_init
-     2e4      2e4        4     2         ./ra_gen/hal_data.o:(.text.g_hal_init)
-     2e4      2e4        0     1                 $t
-     2e5      2e5        4     1                 g_hal_init
-     2e8      2e8       6a     2         ./ra_gen/led1_thread.o:(.text.led1_thread_create)
-     2e8      2e8        0     1                 $t
-     2e9      2e9       6a     1                 led1_thread_create
-     352      352       12     2         ./ra_gen/led1_thread.o:(.text.led1_thread_func)
-     352      352        0     1                 $t
-     353      353       12     1                 led1_thread_func
-     364      364       6a     2         ./ra_gen/led2_thread.o:(.text.led2_thread_create)
-     364      364        0     1                 $t
-     365      365       6a     1                 led2_thread_create
-     3ce      3ce       12     2         ./ra_gen/led2_thread.o:(.text.led2_thread_func)
-     3ce      3ce        0     1                 $t
-     3cf      3cf       12     1                 led2_thread_func
-     3e0      3e0        4     2         ./ra_gen/main.o:(.text.rtos_startup_err_callback_internal)
-     3e0      3e0        0     1                 $t
-     3e1      3e1        4     1                 rtos_startup_err_callback_internal
-     3e1      3e1        4     1                 rtos_startup_err_callback
-     3e4      3e4       62     4         ./ra_gen/main.o:(.text.rtos_startup_common_init)
+     235      235       80     1                 spi_slv_thread_entry
+     2b4      2b4       82     2         ./src/spi_slv_thread_entry.o:(.text.spi1_callback)
+     2b4      2b4        0     1                 $t
+     2b5      2b5       82     1                 spi1_callback
+     336      336       8c     2         ./src/spi_slv_thread_entry.o:(.text.g_timer1_callback)
+     336      336        0     1                 $t
+     337      337       8c     1                 g_timer1_callback
+     3c2      3c2       20     2         ./src/timer.o:(.text.g_timer0_callback)
+     3c2      3c2        0     1                 $t
+     3c3      3c3       20     1                 g_timer0_callback
+     3e2      3e2        2     2         ./ra_gen/common_data.o:(.text.g_common_init)
+     3e2      3e2        0     1                 $t
+     3e3      3e3        2     1                 g_common_init
+     3e4      3e4        4     2         ./ra_gen/hal_data.o:(.text.g_hal_init)
      3e4      3e4        0     1                 $t
-     3e5      3e5       62     1                 rtos_startup_common_init
-     446      446       52     2         ./ra_gen/main.o:(.text.main)
-     446      446        0     1                 $t
-     447      447       52     1                 main
-     498      498       1a     2         ./ra_gen/main.o:(.text.vApplicationGetIdleTaskMemory)
-     498      498        0     1                 $t
-     499      499       1a     1                 vApplicationGetIdleTaskMemory
-     4b2      4b2       1a     2         ./ra_gen/main.o:(.text.vApplicationGetTimerTaskMemory)
-     4b2      4b2        0     1                 $t
-     4b3      4b3       1a     1                 vApplicationGetTimerTaskMemory
-     4cc      4cc       6a     2         ./ra_gen/spi_slv_thread.o:(.text.spi_slv_thread_create)
-     4cc      4cc        0     1                 $t
-     4cd      4cd       6a     1                 spi_slv_thread_create
-     536      536       12     2         ./ra_gen/spi_slv_thread.o:(.text.spi_slv_thread_func)
-     536      536        0     1                 $t
-     537      537       12     1                 spi_slv_thread_func
-     548      548       18     4         ./ra/fsp/src/rm_freertos_port/port.o:(.text.SVC_Handler)
-     548      548        0     1                 $t
-     549      549       12     1                 SVC_Handler
-     55c      55c        0     1                 $d
-     560      560       44     4         ./ra/fsp/src/rm_freertos_port/port.o:(.text.PendSV_Handler)
-     560      560        0     1                 $t
-     561      561       40     1                 PendSV_Handler
-     5a0      5a0        0     1                 $d
-     5a4      5a4       24     4         ./ra/fsp/src/rm_freertos_port/port.o:(.text.rm_freertos_port_restore_task_stackless)
-     5a4      5a4        0     1                 $t
-     5a5      5a5       20     1                 rm_freertos_port_restore_task_stackless
-     5be      5be        0     1                 _skip_restore_ns_context
-     5c4      5c4        0     1                 $d
-     5c8      5c8       26     2         ./ra/fsp/src/rm_freertos_port/port.o:(.text.SysTick_Handler)
-     5c8      5c8        0     1                 $t
-     5c9      5c9       26     1                 SysTick_Handler
-     5ee      5ee       36     2         ./ra/fsp/src/rm_freertos_port/port.o:(.text.vPortSVCHandler_C)
-     5ee      5ee        0     1                 $t
-     5ef      5ef       36     1                 vPortSVCHandler_C
-     624      624       28     2         ./ra/fsp/src/rm_freertos_port/port.o:(.text.pxPortInitialiseStack)
-     624      624        0     1                 $t
-     625      625       28     1                 pxPortInitialiseStack
-     64c      64c        6     4         ./ra/fsp/src/rm_freertos_port/port.o:(.text.prvTaskExitError)
-     64c      64c        0     1                 $t
-     64d      64d        6     1                 prvTaskExitError
-     654      654       3c     4         ./ra/fsp/src/rm_freertos_port/port.o:(.text.xPortStartScheduler)
-     654      654        0     1                 $t
-     655      655       3c     1                 xPortStartScheduler
-     690      690       46     2         ./ra/fsp/src/rm_freertos_port/port.o:(.text.vPortSetupTimerInterrupt)
-     690      690        0     1                 $t
-     691      691       46     1                 vPortSetupTimerInterrupt
-     6d6      6d6       56     2         ./ra/fsp/src/rm_freertos_port/port.o:(.text.vPortEnterCritical)
-     6d6      6d6        0     1                 $t
-     6d7      6d7       56     1                 vPortEnterCritical
-     72c      72c       46     2         ./ra/fsp/src/rm_freertos_port/port.o:(.text.vPortExitCritical)
-     72c      72c        0     1                 $t
-     72d      72d       46     1                 vPortExitCritical
-     772      772       6e     2         ./ra/fsp/src/rm_freertos_port/port.o:(.text.rm_freertos_port_sleep_preserving_lpm)
-     772      772        0     1                 $t
-     773      773       6e     1                 rm_freertos_port_sleep_preserving_lpm
-     7e0      7e0       18     2         ./ra/fsp/src/rm_freertos_port/port.o:(.text.vApplicationIdleHook)
-     7e0      7e0        0     1                 $t
-     7e1      7e1       18     1                 vApplicationIdleHook
-     7f8      7f8       6c     2         ./ra/fsp/src/rm_freertos_port/port.o:(.text.vPortValidateInterruptPriority)
-     7f8      7f8        0     1                 $t
-     7f9      7f9       6c     1                 vPortValidateInterruptPriority
-     864      864      2fc     2         ./ra/fsp/src/r_spi/r_spi.o:(.text.R_SPI_Open)
-     864      864        0     1                 $t
-     865      865      2fc     1                 R_SPI_Open
-     b60      b60        c     2         ./ra/fsp/src/r_spi/r_spi.o:(.text.R_SPI_WriteRead)
-     b60      b60        0     1                 $t
-     b61      b61        c     1                 R_SPI_WriteRead
-     b6c      b6c      1dc     2         ./ra/fsp/src/r_spi/r_spi.o:(.text.r_spi_write_read_common)
-     b6c      b6c        0     1                 $t
-     b6d      b6d      1dc     1                 r_spi_write_read_common
-     d48      d48       92     2         ./ra/fsp/src/r_spi/r_spi.o:(.text.spi_rxi_isr)
-     d48      d48        0     1                 $t
-     d49      d49       92     1                 spi_rxi_isr
-     dda      dda       70     2         ./ra/fsp/src/r_spi/r_spi.o:(.text.r_spi_transmit)
-     dda      dda        0     1                 $t
-     ddb      ddb       70     1                 r_spi_transmit
-     e4a      e4a       a2     2         ./ra/fsp/src/r_spi/r_spi.o:(.text.spi_txi_isr)
-     e4a      e4a        0     1                 $t
-     e4b      e4b       a2     1                 spi_txi_isr
-     eec      eec       d4     2         ./ra/fsp/src/r_spi/r_spi.o:(.text.spi_tei_isr)
-     eec      eec        0     1                 $t
-     eed      eed       d4     1                 spi_tei_isr
-     fc0      fc0       3e     2         ./ra/fsp/src/r_spi/r_spi.o:(.text.r_spi_call_callback)
-     fc0      fc0        0     1                 $t
-     fc1      fc1       3e     1                 r_spi_call_callback
-     ffe      ffe       da     2         ./ra/fsp/src/r_spi/r_spi.o:(.text.spi_eri_isr)
-     ffe      ffe        0     1                 $t
-     fff      fff       da     1                 spi_eri_isr
-    10d8     10d8       16     2         ./ra/fsp/src/r_ioport/r_ioport.o:(.text.R_IOPORT_Open)
-    10d8     10d8        0     1                 $t
-    10d9     10d9       16     1                 R_IOPORT_Open
-    10f0     10f0       be     4         ./ra/fsp/src/r_ioport/r_ioport.o:(.text.r_ioport_pins_config)
-    10f0     10f0        0     1                 $t
-    10f1     10f1       be     1                 r_ioport_pins_config
-    11b0     11b0       7c     4         ./ra/fsp/src/r_ioport/r_ioport.o:(.text.bsp_vbatt_init)
-    11b0     11b0        0     1                 $t
-    11b1     11b1       7c     1                 bsp_vbatt_init
-    122c     122c       80     2         ./ra/fsp/src/r_icu/r_icu.o:(.text.R_ICU_ExternalIrqOpen)
-    122c     122c        0     1                 $t
-    122d     122d       80     1                 R_ICU_ExternalIrqOpen
-    12ac     12ac       44     2         ./ra/fsp/src/r_icu/r_icu.o:(.text.R_ICU_ExternalIrqEnable)
-    12ac     12ac        0     1                 $t
-    12ad     12ad       44     1                 R_ICU_ExternalIrqEnable
-    12f0     12f0       74     2         ./ra/fsp/src/r_icu/r_icu.o:(.text.r_icu_isr)
-    12f0     12f0        0     1                 $t
-    12f1     12f1       74     1                 r_icu_isr
-    1364     1364      358     4         ./ra/fsp/src/r_gpt/r_gpt.o:(.text.R_GPT_Open)
-    1364     1364        0     1                 $t
-    1365     1365      358     1                 R_GPT_Open
-    16bc     16bc        a     2         ./ra/fsp/src/r_gpt/r_gpt.o:(.text.R_GPT_Start)
-    16bc     16bc        0     1                 $t
-    16bd     16bd        a     1                 R_GPT_Start
-    16c6     16c6        a     2         ./ra/fsp/src/r_gpt/r_gpt.o:(.text.R_GPT_Stop)
-    16c6     16c6        0     1                 $t
-    16c7     16c7        a     1                 R_GPT_Stop
-    16d0     16d0       1a     2         ./ra/fsp/src/r_gpt/r_gpt.o:(.text.R_GPT_PeriodSet)
-    16d0     16d0        0     1                 $t
-    16d1     16d1       1a     1                 R_GPT_PeriodSet
-    16ea     16ea      1c8     2         ./ra/fsp/src/r_gpt/r_gpt.o:(.text.gpt_counter_overflow_isr)
-    16ea     16ea        0     1                 $t
-    16eb     16eb      1c8     1                 gpt_counter_overflow_isr
-    18b2     18b2       2c     2         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.text.SystemCoreClockUpdate)
-    18b2     18b2        0     1                 $t
-    18b3     18b3       2c     1                 SystemCoreClockUpdate
-    18e0     18e0      114     4         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.text.bsp_clock_init)
-    18e0     18e0        0     1                 $t
-    18e1     18e1      114     1                 bsp_clock_init
-    19f4     19f4        2     2         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.text.R_BSP_SubClockStabilizeWaitAfterReset)
-    19f4     19f4        0     1                 $t
-    19f5     19f5        2     1                 R_BSP_SubClockStabilizeWaitAfterReset
-    19f8     19f8       68     4         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.text.R_BSP_Init_RTC)
-    19f8     19f8        0     1                 $t
-    19f9     19f9       68     1                 R_BSP_Init_RTC
-    1a60     1a60        6     4         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.text.__assert_func)
-    1a60     1a60        0     1                 $t
-    1a61     1a61        6     1                 __assert_func
-    1a66     1a66       84     2         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.text.R_BSP_SoftwareDelay)
-    1a66     1a66        0     1                 $t
-    1a67     1a67       84     1                 R_BSP_SoftwareDelay
-    1aea     1aea        8     2         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.text.bsp_prv_software_delay_loop)
-    1aea     1aea        0     1                 sw_delay_loop
-    1aea     1aea        0     1                 $t
-    1aeb     1aeb        8     1                 bsp_prv_software_delay_loop
-    1af4     1af4       44     4         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.text.NMI_Handler)
-    1af4     1af4        0     1                 $t
-    1af5     1af5       44     1                 NMI_Handler
-    1b38     1b38       88     4         ./ra/fsp/src/bsp/mcu/all/bsp_irq.o:(.text.bsp_irq_cfg)
-    1b38     1b38        0     1                 $t
-    1b39     1b39       88     1                 bsp_irq_cfg
-    1bc0     1bc0       52     2         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.text.R_BSP_RegisterProtectEnable)
-    1bc0     1bc0        0     1                 $t
-    1bc1     1bc1       52     1                 R_BSP_RegisterProtectEnable
-    1c12     1c12       4e     2         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.text.R_BSP_RegisterProtectDisable)
-    1c12     1c12        0     1                 $t
-    1c13     1c13       4e     1                 R_BSP_RegisterProtectDisable
-    1c60     1c60        a     4         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o:(.text.Reset_Handler)
-    1c60     1c60        0     1                 $t
-    1c61     1c61        a     1                 Reset_Handler
-    1c6a     1c6a        4     2         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o:(.text.Default_Handler)
-    1c6a     1c6a        0     1                 $t
-    1c6b     1c6b        4     1                 Default_Handler
-    1c6b     1c6b        4     1                 HardFault_Handler
-    1c6b     1c6b        4     1                 MemManage_Handler
-    1c6b     1c6b        4     1                 BusFault_Handler
-    1c6b     1c6b        4     1                 UsageFault_Handler
-    1c6b     1c6b        4     1                 SecureFault_Handler
-    1c6b     1c6b        4     1                 DebugMon_Handler
-    1c70     1c70       e0     4         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.text.SystemInit)
-    1c70     1c70        0     1                 $t
-    1c71     1c71       e0     1                 SystemInit
-    1d50     1d50       5a     4         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.text.SystemRuntimeInit)
-    1d50     1d50        0     1                 $t
-    1d51     1d51       5a     1                 SystemRuntimeInit
-    1daa     1daa        2     2         ./ra/board/ra6e2_fpb/board_init.o:(.text.bsp_init)
-    1daa     1daa        0     1                 $t
-    1dab     1dab        2     1                 bsp_init
-    1dac     1dac       16     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.text.vListInitialise)
-    1dac     1dac        0     1                 $t
-    1dad     1dad       16     1                 vListInitialise
-    1dc2     1dc2        6     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.text.vListInitialiseItem)
-    1dc2     1dc2        0     1                 $t
-    1dc3     1dc3        6     1                 vListInitialiseItem
-    1dc8     1dc8       3a     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.text.vListInsert)
-    1dc8     1dc8        0     1                 $t
-    1dc9     1dc9       3a     1                 vListInsert
-    1e02     1e02       22     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.text.uxListRemove)
-    1e02     1e02        0     1                 $t
-    1e03     1e03       22     1                 uxListRemove
-    1e24     1e24       be     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.text.xQueueGenericReset)
-    1e24     1e24        0     1                 $t
-    1e25     1e25       be     1                 xQueueGenericReset
-    1ee2     1ee2       98     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.text.xQueueGenericCreateStatic)
-    1ee2     1ee2        0     1                 $t
-    1ee3     1ee3       98     1                 xQueueGenericCreateStatic
-    1f7a     1f7a       40     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.text.xQueueCreateCountingSemaphoreStatic)
-    1f7a     1f7a        0     1                 $t
-    1f7b     1f7b       40     1                 xQueueCreateCountingSemaphoreStatic
-    1fbc     1fbc      1c8     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.text.xQueueGenericSend)
-    1fbc     1fbc        0     1                 $t
-    1fbd     1fbd      1c8     1                 xQueueGenericSend
-    2184     2184       62     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.text.prvCopyDataToQueue)
-    2184     2184        0     1                 $t
-    2185     2185       62     1                 prvCopyDataToQueue
-    21e8     21e8       72     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.text.prvUnlockQueue)
-    21e8     21e8        0     1                 $t
-    21e9     21e9       72     1                 prvUnlockQueue
-    225c     225c      1b2     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.text.xQueueReceive)
-    225c     225c        0     1                 $t
-    225d     225d      1b2     1                 xQueueReceive
-    2410     2410      18a     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.text.xQueueSemaphoreTake)
-    2410     2410        0     1                 $t
-    2411     2411      18a     1                 xQueueSemaphoreTake
-    259c     259c       66     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.text.vQueueAddToRegistry)
-    259c     259c        0     1                 $t
-    259d     259d       66     1                 vQueueAddToRegistry
-    2602     2602       46     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.text.vQueueWaitForMessageRestricted)
-    2602     2602        0     1                 $t
-    2603     2603       46     1                 vQueueWaitForMessageRestricted
-    2648     2648      246     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.xTaskCreateStatic)
-    2648     2648        0     1                 $t
-    2649     2649      246     1                 xTaskCreateStatic
-    288e     288e       10     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.vTaskSuspendAll)
-    288e     288e        0     1                 $t
-    288f     288f       10     1                 vTaskSuspendAll
-    289e     289e       a4     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.prvAddCurrentTaskToDelayedList)
-    289e     289e        0     1                 $t
-    289f     289f       a4     1                 prvAddCurrentTaskToDelayedList
-    2944     2944      190     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.xTaskResumeAll)
-    2944     2944        0     1                 $t
-    2945     2945      190     1                 xTaskResumeAll
-    2ad4     2ad4       9e     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.vTaskSwitchContext)
-    2ad4     2ad4        0     1                 $t
-    2ad5     2ad5       9e     1                 vTaskSwitchContext
-    2b72     2b72       b2     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.vTaskStartScheduler)
-    2b72     2b72        0     1                 $t
-    2b73     2b73       b2     1                 vTaskStartScheduler
-    2c24     2c24       46     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.prvCheckTasksWaitingTermination)
-    2c24     2c24        0     1                 $t
-    2c25     2c25       46     1                 prvCheckTasksWaitingTermination
-    2c6c     2c6c      1ac     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.xTaskIncrementTick)
-    2c6c     2c6c        0     1                 $t
-    2c6d     2c6d      1ac     1                 xTaskIncrementTick
-    2e18     2e18        c     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.xTaskGetTickCount)
-    2e18     2e18        0     1                 $t
-    2e19     2e19        c     1                 xTaskGetTickCount
-    2e24     2e24       42     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.vTaskPlaceOnEventList)
-    2e24     2e24        0     1                 $t
-    2e25     2e25       42     1                 vTaskPlaceOnEventList
-    2e66     2e66       7a     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.vTaskPlaceOnEventListRestricted)
-    2e66     2e66        0     1                 $t
-    2e67     2e67       7a     1                 vTaskPlaceOnEventListRestricted
-    2ee0     2ee0      10c     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.xTaskRemoveFromEventList)
-    2ee0     2ee0        0     1                 $t
-    2ee1     2ee1      10c     1                 xTaskRemoveFromEventList
-    2fec     2fec       1a     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.vTaskInternalSetTimeOutState)
-    2fec     2fec        0     1                 $t
-    2fed     2fed       1a     1                 vTaskInternalSetTimeOutState
-    3006     3006       a0     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.xTaskCheckForTimeOut)
-    3006     3006        0     1                 $t
-    3007     3007       a0     1                 xTaskCheckForTimeOut
-    30a6     30a6        e     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.vTaskMissedYield)
-    30a6     30a6        0     1                 $t
-    30a7     30a7        e     1                 vTaskMissedYield
-    30b4     30b4        c     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.xTaskGetCurrentTaskHandle)
-    30b4     30b4        0     1                 $t
-    30b5     30b5        c     1                 xTaskGetCurrentTaskHandle
-    30c0     30c0       26     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.xTaskGetSchedulerState)
-    30c0     30c0        0     1                 $t
-    30c1     30c1       26     1                 xTaskGetSchedulerState
-    30e6     30e6       b0     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.ulTaskGenericNotifyTake)
-    30e6     30e6        0     1                 $t
-    30e7     30e7       b0     1                 ulTaskGenericNotifyTake
-    3196     3196      164     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.vTaskGenericNotifyGiveFromISR)
-    3196     3196        0     1                 $t
-    3197     3197      164     1                 vTaskGenericNotifyGiveFromISR
-    32fc     32fc       2e     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.prvIdleTask)
-    32fc     32fc        0     1                 $t
-    32fd     32fd       2e     1                 prvIdleTask
-    332a     332a       7e     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.text.xTimerCreateTimerTask)
-    332a     332a        0     1                 $t
-    332b     332b       7e     1                 xTimerCreateTimerTask
-    33a8     33a8       7a     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.text.prvCheckForValidListAndQueue)
-    33a8     33a8        0     1                 $t
-    33a9     33a9       7a     1                 prvCheckForValidListAndQueue
-    3424     3424      180     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.text.prvTimerTask)
-    3424     3424        0     1                 $t
-    3425     3425      180     1                 prvTimerTask
-    3506     3506        0     1                 $d
-    3510     3510        0     1                 $t
-    35a4     35a4       56     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.text.prvSampleTimeNow)
-    35a4     35a4        0     1                 $t
-    35a5     35a5       56     1                 prvSampleTimeNow
-    35fa     35fa       40     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.text.prvProcessExpiredTimer)
-    35fa     35fa        0     1                 $t
-    35fb     35fb       40     1                 prvProcessExpiredTimer
-    363c     363c       2e     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.text.prvReloadTimer)
-    363c     363c        0     1                 $t
-    363d     363d       2e     1                 prvReloadTimer
-    366a     366a       40     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.text.prvInsertTimerInActiveList)
-    366a     366a        0     1                 $t
-    366b     366b       40     1                 prvInsertTimerInActiveList
-    36aa     36aa        8     2         C:\Renesas\e2_studio\toolchains\llvm_arm\ATfE-21.1.1-Windows-x86_64\bin\..\lib\clang-runtimes/arm-none-eabi/armv8m.main_hard_fp_exn_rtti_unaligned_size\lib\libc.a(bzero.c.o):(.text.bzero)
-    36aa     36aa        0     1                 $t
-    36ab     36ab        8     1                 bzero
-    36ab     36ab        8     1                 __aeabi_memclr4
-    36ab     36ab        8     1                 __aeabi_memclr8
-    36ab     36ab        8     1                 __aeabi_memclr
-    36b2     36b2       12     2         C:\Renesas\e2_studio\toolchains\llvm_arm\ATfE-21.1.1-Windows-x86_64\bin\..\lib\clang-runtimes/arm-none-eabi/armv8m.main_hard_fp_exn_rtti_unaligned_size\lib\libc.a(memcpy.c.o):(.text.memcpy)
-    36b2     36b2        0     1                 $t
-    36b3     36b3       12     1                 memcpy
-    36b3     36b3       12     1                 __aeabi_memcpy4
-    36b3     36b3       12     1                 __aeabi_memcpy8
-    36b3     36b3       12     1                 __aeabi_memcpy
-    36c4     36c4        e     2         C:\Renesas\e2_studio\toolchains\llvm_arm\ATfE-21.1.1-Windows-x86_64\bin\..\lib\clang-runtimes/arm-none-eabi/armv8m.main_hard_fp_exn_rtti_unaligned_size\lib\libc.a(memset.c.o):(.text.memset)
-    36c4     36c4        0     1                 $t
-    36c5     36c5        e     1                 memset
-    36d4     36d4       28     4         C:\Renesas\e2_studio\toolchains\llvm_arm\ATfE-21.1.1-Windows-x86_64\bin\..\lib\clang-runtimes/arm-none-eabi/armv8m.main_hard_fp_exn_rtti_unaligned_size\lib\libc.a(libc_picolib_inittls.c.o):(.text._init_tls)
-    36d4     36d4        0     1                 $t
-    36d5     36d5       28     1                 _init_tls
-    36ec     36ec        0     1                 $d
-    36fc     36fc       14     4         C:\Renesas\e2_studio\toolchains\llvm_arm\ATfE-21.1.1-Windows-x86_64\bin\..\lib\clang-runtimes/arm-none-eabi/armv8m.main_hard_fp_exn_rtti_unaligned_size\lib\libc.a(libc_picolib_machine_arm_set_tls.c.o):(.text._set_tls)
-    36fc     36fc        0     1                 $t
-    36fd     36fd       14     1                 _set_tls
-    3708     3708        0     1                 $d
-    3710     3710        1     1         ./ra_gen/common_data.o:(.rodata.g_external_irq9_ext_cfg)
-    3710     3710        1     1                 g_external_irq9_ext_cfg
-    3714     3714       14     4         ./ra_gen/common_data.o:(.rodata.g_external_irq9_cfg)
-    3714     3714       14     1                 g_external_irq9_cfg
-    3728     3728        d     1         ./ra_gen/hal_data.o:(.rodata.g_spi1_ext_cfg)
-    3728     3728        d     1                 g_spi1_ext_cfg
-    3738     3738       24     4         ./ra_gen/hal_data.o:(.rodata.g_spi1_cfg)
-    3738     3738       24     1                 g_spi1_cfg
-    375c     375c       58     4         ./ra_gen/hal_data.o:(.rodata.g_timer0_extend)
-    375c     375c       58     1                 g_timer0_extend
-    37b4     37b4       20     4         ./ra_gen/hal_data.o:(.rodata.g_timer0_cfg)
-    37b4     37b4       20     1                 g_timer0_cfg
-    37d4     37d4        4     4         ./ra_gen/led1_thread.o:(.rodata.led1_thread_parameters)
-    37d4     37d4        4     1                 led1_thread_parameters
-    37d8     37d8      7a0     1         <internal>:(.rodata.str1.1)
-    3f78     3f78        4     4         ./ra_gen/led2_thread.o:(.rodata.led2_thread_parameters)
-    3f78     3f78        4     1                 led2_thread_parameters
-    3f7c     3f7c      140     4         ./ra_gen/pin_data.o:(.rodata.g_bsp_pin_cfg_data)
-    3f7c     3f7c      140     1                 g_bsp_pin_cfg_data
-    40bc     40bc        c     4         ./ra_gen/pin_data.o:(.rodata.g_bsp_pin_cfg)
-    40bc     40bc        c     1                 g_bsp_pin_cfg
-    40c8     40c8        4     4         ./ra_gen/spi_slv_thread.o:(.rodata.spi_slv_thread_parameters)
-    40c8     40c8        4     1                 spi_slv_thread_parameters
-    40cc     40cc        c     2         ./ra_gen/vector_data.o:(.rodata.g_interrupt_event_link_select)
-    40cc     40cc        c     1                 g_interrupt_event_link_select
-    40d8     40d8        6     2         ./ra/fsp/src/r_ioport/r_ioport.o:(.rodata.g_vbatt_pins_input)
-    40d8     40d8        6     1                 g_vbatt_pins_input
-    40e0     40e0        8     4         ./ra/fsp/src/bsp/mcu/ra6e2/bsp_linker.o:(.rodata.nocache_list)
-    40e0     40e0        8     1                 nocache_list
-    40e8     40e8       18     4         ./ra/fsp/src/bsp/mcu/ra6e2/bsp_linker.o:(.rodata.g_init_info)
-    40e8     40e8       18     1                 g_init_info
-    4100     4100       24     4         ./ra/fsp/src/bsp/mcu/ra6e2/bsp_linker.o:(.rodata.zero_list)
-    4100     4100       24     1                 zero_list
-    4124     4124       40     4         ./ra/fsp/src/bsp/mcu/ra6e2/bsp_linker.o:(.rodata.copy_list)
-    4124     4124       40     1                 copy_list
-    4164     4164        a     2         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.rodata.g_prcr_masks)
-    4164     4164        a     1                 g_prcr_masks
-    4170     4170        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.rodata.uxTopUsedPriority)
-    4170     4170        4     1                 uxTopUsedPriority
-    4174     4174       4e     4         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.version)
-    4174     4174        4     1                 g_fsp_version
-    4178     4178        6     1                 g_fsp_version_string
-    417e     417e       44     1                 g_fsp_version_build_string
-    41c2     41c2        0     1         __flash_readonly$$Limit = .
-    41c2     41c2        0     1 __flash_preinit_array$$
-    41c2     41c2        0     1         __preinit_array_start = .
-    41c2     41c2        0     1         __preinit_array_end = .
-    41c2     41c2        0     1 __flash_init_array$$
-    41c2     41c2        0     1         __init_array_start = .
-    41c2     41c2        0     1         __init_array_end = .
-    41c2     41c2        0     1 __flash_fini_array$$
-    41c2     41c2        0     1         __fini_array_start = .
-    41c2     41c2        0     1         __fini_array_end = .
-    41c2     41c2        0     1 __flash_arm.exidx$$
-    41c2     41c2        0     1         __exidx_start = .
-    41c2     41c2        0     1         __exidx_end = .
+     3e5      3e5        4     1                 g_hal_init
+     3e8      3e8       6a     2         ./ra_gen/led1_thread.o:(.text.led1_thread_create)
+     3e8      3e8        0     1                 $t
+     3e9      3e9       6a     1                 led1_thread_create
+     452      452       12     2         ./ra_gen/led1_thread.o:(.text.led1_thread_func)
+     452      452        0     1                 $t
+     453      453       12     1                 led1_thread_func
+     464      464       6a     2         ./ra_gen/led2_thread.o:(.text.led2_thread_create)
+     464      464        0     1                 $t
+     465      465       6a     1                 led2_thread_create
+     4ce      4ce       12     2         ./ra_gen/led2_thread.o:(.text.led2_thread_func)
+     4ce      4ce        0     1                 $t
+     4cf      4cf       12     1                 led2_thread_func
+     4e0      4e0        4     2         ./ra_gen/main.o:(.text.rtos_startup_err_callback_internal)
+     4e0      4e0        0     1                 $t
+     4e1      4e1        4     1                 rtos_startup_err_callback_internal
+     4e1      4e1        4     1                 rtos_startup_err_callback
+     4e4      4e4       62     4         ./ra_gen/main.o:(.text.rtos_startup_common_init)
+     4e4      4e4        0     1                 $t
+     4e5      4e5       62     1                 rtos_startup_common_init
+     546      546       52     2         ./ra_gen/main.o:(.text.main)
+     546      546        0     1                 $t
+     547      547       52     1                 main
+     598      598       1a     2         ./ra_gen/main.o:(.text.vApplicationGetIdleTaskMemory)
+     598      598        0     1                 $t
+     599      599       1a     1                 vApplicationGetIdleTaskMemory
+     5b2      5b2       1a     2         ./ra_gen/main.o:(.text.vApplicationGetTimerTaskMemory)
+     5b2      5b2        0     1                 $t
+     5b3      5b3       1a     1                 vApplicationGetTimerTaskMemory
+     5cc      5cc       6a     2         ./ra_gen/spi_slv_thread.o:(.text.spi_slv_thread_create)
+     5cc      5cc        0     1                 $t
+     5cd      5cd       6a     1                 spi_slv_thread_create
+     636      636       12     2         ./ra_gen/spi_slv_thread.o:(.text.spi_slv_thread_func)
+     636      636        0     1                 $t
+     637      637       12     1                 spi_slv_thread_func
+     648      648       18     4         ./ra/fsp/src/rm_freertos_port/port.o:(.text.SVC_Handler)
+     648      648        0     1                 $t
+     649      649       12     1                 SVC_Handler
+     65c      65c        0     1                 $d
+     660      660       44     4         ./ra/fsp/src/rm_freertos_port/port.o:(.text.PendSV_Handler)
+     660      660        0     1                 $t
+     661      661       40     1                 PendSV_Handler
+     6a0      6a0        0     1                 $d
+     6a4      6a4       24     4         ./ra/fsp/src/rm_freertos_port/port.o:(.text.rm_freertos_port_restore_task_stackless)
+     6a4      6a4        0     1                 $t
+     6a5      6a5       20     1                 rm_freertos_port_restore_task_stackless
+     6be      6be        0     1                 _skip_restore_ns_context
+     6c4      6c4        0     1                 $d
+     6c8      6c8       26     2         ./ra/fsp/src/rm_freertos_port/port.o:(.text.SysTick_Handler)
+     6c8      6c8        0     1                 $t
+     6c9      6c9       26     1                 SysTick_Handler
+     6ee      6ee       36     2         ./ra/fsp/src/rm_freertos_port/port.o:(.text.vPortSVCHandler_C)
+     6ee      6ee        0     1                 $t
+     6ef      6ef       36     1                 vPortSVCHandler_C
+     724      724       28     2         ./ra/fsp/src/rm_freertos_port/port.o:(.text.pxPortInitialiseStack)
+     724      724        0     1                 $t
+     725      725       28     1                 pxPortInitialiseStack
+     74c      74c        6     4         ./ra/fsp/src/rm_freertos_port/port.o:(.text.prvTaskExitError)
+     74c      74c        0     1                 $t
+     74d      74d        6     1                 prvTaskExitError
+     754      754       3c     4         ./ra/fsp/src/rm_freertos_port/port.o:(.text.xPortStartScheduler)
+     754      754        0     1                 $t
+     755      755       3c     1                 xPortStartScheduler
+     790      790       46     2         ./ra/fsp/src/rm_freertos_port/port.o:(.text.vPortSetupTimerInterrupt)
+     790      790        0     1                 $t
+     791      791       46     1                 vPortSetupTimerInterrupt
+     7d6      7d6       56     2         ./ra/fsp/src/rm_freertos_port/port.o:(.text.vPortEnterCritical)
+     7d6      7d6        0     1                 $t
+     7d7      7d7       56     1                 vPortEnterCritical
+     82c      82c       46     2         ./ra/fsp/src/rm_freertos_port/port.o:(.text.vPortExitCritical)
+     82c      82c        0     1                 $t
+     82d      82d       46     1                 vPortExitCritical
+     872      872       6e     2         ./ra/fsp/src/rm_freertos_port/port.o:(.text.rm_freertos_port_sleep_preserving_lpm)
+     872      872        0     1                 $t
+     873      873       6e     1                 rm_freertos_port_sleep_preserving_lpm
+     8e0      8e0       18     2         ./ra/fsp/src/rm_freertos_port/port.o:(.text.vApplicationIdleHook)
+     8e0      8e0        0     1                 $t
+     8e1      8e1       18     1                 vApplicationIdleHook
+     8f8      8f8       6c     2         ./ra/fsp/src/rm_freertos_port/port.o:(.text.vPortValidateInterruptPriority)
+     8f8      8f8        0     1                 $t
+     8f9      8f9       6c     1                 vPortValidateInterruptPriority
+     964      964      2fc     2         ./ra/fsp/src/r_spi/r_spi.o:(.text.R_SPI_Open)
+     964      964        0     1                 $t
+     965      965      2fc     1                 R_SPI_Open
+     c60      c60        c     2         ./ra/fsp/src/r_spi/r_spi.o:(.text.R_SPI_WriteRead)
+     c60      c60        0     1                 $t
+     c61      c61        c     1                 R_SPI_WriteRead
+     c6c      c6c       c0     2         ./ra/fsp/src/r_spi/r_spi.o:(.text.R_SPI_Close)
+     c6c      c6c        0     1                 $t
+     c6d      c6d       c0     1                 R_SPI_Close
+     d2c      d2c      1dc     2         ./ra/fsp/src/r_spi/r_spi.o:(.text.r_spi_write_read_common)
+     d2c      d2c        0     1                 $t
+     d2d      d2d      1dc     1                 r_spi_write_read_common
+     f08      f08       92     2         ./ra/fsp/src/r_spi/r_spi.o:(.text.spi_rxi_isr)
+     f08      f08        0     1                 $t
+     f09      f09       92     1                 spi_rxi_isr
+     f9a      f9a       70     2         ./ra/fsp/src/r_spi/r_spi.o:(.text.r_spi_transmit)
+     f9a      f9a        0     1                 $t
+     f9b      f9b       70     1                 r_spi_transmit
+    100a     100a       a2     2         ./ra/fsp/src/r_spi/r_spi.o:(.text.spi_txi_isr)
+    100a     100a        0     1                 $t
+    100b     100b       a2     1                 spi_txi_isr
+    10ac     10ac       d4     2         ./ra/fsp/src/r_spi/r_spi.o:(.text.spi_tei_isr)
+    10ac     10ac        0     1                 $t
+    10ad     10ad       d4     1                 spi_tei_isr
+    1180     1180       3e     2         ./ra/fsp/src/r_spi/r_spi.o:(.text.r_spi_call_callback)
+    1180     1180        0     1                 $t
+    1181     1181       3e     1                 r_spi_call_callback
+    11be     11be       da     2         ./ra/fsp/src/r_spi/r_spi.o:(.text.spi_eri_isr)
+    11be     11be        0     1                 $t
+    11bf     11bf       da     1                 spi_eri_isr
+    1298     1298       16     2         ./ra/fsp/src/r_ioport/r_ioport.o:(.text.R_IOPORT_Open)
+    1298     1298        0     1                 $t
+    1299     1299       16     1                 R_IOPORT_Open
+    12b0     12b0       be     4         ./ra/fsp/src/r_ioport/r_ioport.o:(.text.r_ioport_pins_config)
+    12b0     12b0        0     1                 $t
+    12b1     12b1       be     1                 r_ioport_pins_config
+    1370     1370       7c     4         ./ra/fsp/src/r_ioport/r_ioport.o:(.text.bsp_vbatt_init)
+    1370     1370        0     1                 $t
+    1371     1371       7c     1                 bsp_vbatt_init
+    13ec     13ec       80     2         ./ra/fsp/src/r_icu/r_icu.o:(.text.R_ICU_ExternalIrqOpen)
+    13ec     13ec        0     1                 $t
+    13ed     13ed       80     1                 R_ICU_ExternalIrqOpen
+    146c     146c       44     2         ./ra/fsp/src/r_icu/r_icu.o:(.text.R_ICU_ExternalIrqEnable)
+    146c     146c        0     1                 $t
+    146d     146d       44     1                 R_ICU_ExternalIrqEnable
+    14b0     14b0       74     2         ./ra/fsp/src/r_icu/r_icu.o:(.text.r_icu_isr)
+    14b0     14b0        0     1                 $t
+    14b1     14b1       74     1                 r_icu_isr
+    1524     1524      358     4         ./ra/fsp/src/r_gpt/r_gpt.o:(.text.R_GPT_Open)
+    1524     1524        0     1                 $t
+    1525     1525      358     1                 R_GPT_Open
+    187c     187c        a     2         ./ra/fsp/src/r_gpt/r_gpt.o:(.text.R_GPT_Start)
+    187c     187c        0     1                 $t
+    187d     187d        a     1                 R_GPT_Start
+    1886     1886        a     2         ./ra/fsp/src/r_gpt/r_gpt.o:(.text.R_GPT_Stop)
+    1886     1886        0     1                 $t
+    1887     1887        a     1                 R_GPT_Stop
+    1890     1890       1a     2         ./ra/fsp/src/r_gpt/r_gpt.o:(.text.R_GPT_PeriodSet)
+    1890     1890        0     1                 $t
+    1891     1891       1a     1                 R_GPT_PeriodSet
+    18aa     18aa      1c8     2         ./ra/fsp/src/r_gpt/r_gpt.o:(.text.gpt_counter_overflow_isr)
+    18aa     18aa        0     1                 $t
+    18ab     18ab      1c8     1                 gpt_counter_overflow_isr
+    1a72     1a72       2c     2         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.text.SystemCoreClockUpdate)
+    1a72     1a72        0     1                 $t
+    1a73     1a73       2c     1                 SystemCoreClockUpdate
+    1aa0     1aa0      114     4         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.text.bsp_clock_init)
+    1aa0     1aa0        0     1                 $t
+    1aa1     1aa1      114     1                 bsp_clock_init
+    1bb4     1bb4        2     2         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.text.R_BSP_SubClockStabilizeWaitAfterReset)
+    1bb4     1bb4        0     1                 $t
+    1bb5     1bb5        2     1                 R_BSP_SubClockStabilizeWaitAfterReset
+    1bb8     1bb8       68     4         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.text.R_BSP_Init_RTC)
+    1bb8     1bb8        0     1                 $t
+    1bb9     1bb9       68     1                 R_BSP_Init_RTC
+    1c20     1c20        6     4         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.text.__assert_func)
+    1c20     1c20        0     1                 $t
+    1c21     1c21        6     1                 __assert_func
+    1c26     1c26       84     2         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.text.R_BSP_SoftwareDelay)
+    1c26     1c26        0     1                 $t
+    1c27     1c27       84     1                 R_BSP_SoftwareDelay
+    1caa     1caa        8     2         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.text.bsp_prv_software_delay_loop)
+    1caa     1caa        0     1                 sw_delay_loop
+    1caa     1caa        0     1                 $t
+    1cab     1cab        8     1                 bsp_prv_software_delay_loop
+    1cb4     1cb4       44     4         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.text.NMI_Handler)
+    1cb4     1cb4        0     1                 $t
+    1cb5     1cb5       44     1                 NMI_Handler
+    1cf8     1cf8       88     4         ./ra/fsp/src/bsp/mcu/all/bsp_irq.o:(.text.bsp_irq_cfg)
+    1cf8     1cf8        0     1                 $t
+    1cf9     1cf9       88     1                 bsp_irq_cfg
+    1d80     1d80       52     2         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.text.R_BSP_RegisterProtectEnable)
+    1d80     1d80        0     1                 $t
+    1d81     1d81       52     1                 R_BSP_RegisterProtectEnable
+    1dd2     1dd2       4e     2         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.text.R_BSP_RegisterProtectDisable)
+    1dd2     1dd2        0     1                 $t
+    1dd3     1dd3       4e     1                 R_BSP_RegisterProtectDisable
+    1e20     1e20        a     4         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o:(.text.Reset_Handler)
+    1e20     1e20        0     1                 $t
+    1e21     1e21        a     1                 Reset_Handler
+    1e2a     1e2a        4     2         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o:(.text.Default_Handler)
+    1e2a     1e2a        0     1                 $t
+    1e2b     1e2b        4     1                 Default_Handler
+    1e2b     1e2b        4     1                 HardFault_Handler
+    1e2b     1e2b        4     1                 MemManage_Handler
+    1e2b     1e2b        4     1                 BusFault_Handler
+    1e2b     1e2b        4     1                 UsageFault_Handler
+    1e2b     1e2b        4     1                 SecureFault_Handler
+    1e2b     1e2b        4     1                 DebugMon_Handler
+    1e30     1e30       e0     4         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.text.SystemInit)
+    1e30     1e30        0     1                 $t
+    1e31     1e31       e0     1                 SystemInit
+    1f10     1f10       5a     4         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.text.SystemRuntimeInit)
+    1f10     1f10        0     1                 $t
+    1f11     1f11       5a     1                 SystemRuntimeInit
+    1f6a     1f6a        2     2         ./ra/board/ra6e2_fpb/board_init.o:(.text.bsp_init)
+    1f6a     1f6a        0     1                 $t
+    1f6b     1f6b        2     1                 bsp_init
+    1f6c     1f6c       16     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.text.vListInitialise)
+    1f6c     1f6c        0     1                 $t
+    1f6d     1f6d       16     1                 vListInitialise
+    1f82     1f82        6     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.text.vListInitialiseItem)
+    1f82     1f82        0     1                 $t
+    1f83     1f83        6     1                 vListInitialiseItem
+    1f88     1f88       3a     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.text.vListInsert)
+    1f88     1f88        0     1                 $t
+    1f89     1f89       3a     1                 vListInsert
+    1fc2     1fc2       22     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.text.uxListRemove)
+    1fc2     1fc2        0     1                 $t
+    1fc3     1fc3       22     1                 uxListRemove
+    1fe4     1fe4       be     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.text.xQueueGenericReset)
+    1fe4     1fe4        0     1                 $t
+    1fe5     1fe5       be     1                 xQueueGenericReset
+    20a2     20a2       98     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.text.xQueueGenericCreateStatic)
+    20a2     20a2        0     1                 $t
+    20a3     20a3       98     1                 xQueueGenericCreateStatic
+    213a     213a       40     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.text.xQueueCreateCountingSemaphoreStatic)
+    213a     213a        0     1                 $t
+    213b     213b       40     1                 xQueueCreateCountingSemaphoreStatic
+    217c     217c      1c8     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.text.xQueueGenericSend)
+    217c     217c        0     1                 $t
+    217d     217d      1c8     1                 xQueueGenericSend
+    2344     2344       62     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.text.prvCopyDataToQueue)
+    2344     2344        0     1                 $t
+    2345     2345       62     1                 prvCopyDataToQueue
+    23a8     23a8       72     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.text.prvUnlockQueue)
+    23a8     23a8        0     1                 $t
+    23a9     23a9       72     1                 prvUnlockQueue
+    241c     241c      1b2     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.text.xQueueReceive)
+    241c     241c        0     1                 $t
+    241d     241d      1b2     1                 xQueueReceive
+    25d0     25d0      18a     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.text.xQueueSemaphoreTake)
+    25d0     25d0        0     1                 $t
+    25d1     25d1      18a     1                 xQueueSemaphoreTake
+    275c     275c       66     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.text.vQueueAddToRegistry)
+    275c     275c        0     1                 $t
+    275d     275d       66     1                 vQueueAddToRegistry
+    27c2     27c2       46     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.text.vQueueWaitForMessageRestricted)
+    27c2     27c2        0     1                 $t
+    27c3     27c3       46     1                 vQueueWaitForMessageRestricted
+    2808     2808      246     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.xTaskCreateStatic)
+    2808     2808        0     1                 $t
+    2809     2809      246     1                 xTaskCreateStatic
+    2a4e     2a4e       10     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.vTaskSuspendAll)
+    2a4e     2a4e        0     1                 $t
+    2a4f     2a4f       10     1                 vTaskSuspendAll
+    2a5e     2a5e       a4     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.prvAddCurrentTaskToDelayedList)
+    2a5e     2a5e        0     1                 $t
+    2a5f     2a5f       a4     1                 prvAddCurrentTaskToDelayedList
+    2b04     2b04      190     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.xTaskResumeAll)
+    2b04     2b04        0     1                 $t
+    2b05     2b05      190     1                 xTaskResumeAll
+    2c94     2c94       9e     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.vTaskSwitchContext)
+    2c94     2c94        0     1                 $t
+    2c95     2c95       9e     1                 vTaskSwitchContext
+    2d32     2d32       b2     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.vTaskStartScheduler)
+    2d32     2d32        0     1                 $t
+    2d33     2d33       b2     1                 vTaskStartScheduler
+    2de4     2de4       46     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.prvCheckTasksWaitingTermination)
+    2de4     2de4        0     1                 $t
+    2de5     2de5       46     1                 prvCheckTasksWaitingTermination
+    2e2c     2e2c      1ac     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.xTaskIncrementTick)
+    2e2c     2e2c        0     1                 $t
+    2e2d     2e2d      1ac     1                 xTaskIncrementTick
+    2fd8     2fd8        c     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.xTaskGetTickCount)
+    2fd8     2fd8        0     1                 $t
+    2fd9     2fd9        c     1                 xTaskGetTickCount
+    2fe4     2fe4       42     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.vTaskPlaceOnEventList)
+    2fe4     2fe4        0     1                 $t
+    2fe5     2fe5       42     1                 vTaskPlaceOnEventList
+    3026     3026       7a     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.vTaskPlaceOnEventListRestricted)
+    3026     3026        0     1                 $t
+    3027     3027       7a     1                 vTaskPlaceOnEventListRestricted
+    30a0     30a0      10c     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.xTaskRemoveFromEventList)
+    30a0     30a0        0     1                 $t
+    30a1     30a1      10c     1                 xTaskRemoveFromEventList
+    31ac     31ac       1a     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.vTaskInternalSetTimeOutState)
+    31ac     31ac        0     1                 $t
+    31ad     31ad       1a     1                 vTaskInternalSetTimeOutState
+    31c6     31c6       a0     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.xTaskCheckForTimeOut)
+    31c6     31c6        0     1                 $t
+    31c7     31c7       a0     1                 xTaskCheckForTimeOut
+    3266     3266        e     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.vTaskMissedYield)
+    3266     3266        0     1                 $t
+    3267     3267        e     1                 vTaskMissedYield
+    3274     3274        c     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.xTaskGetCurrentTaskHandle)
+    3274     3274        0     1                 $t
+    3275     3275        c     1                 xTaskGetCurrentTaskHandle
+    3280     3280       26     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.xTaskGetSchedulerState)
+    3280     3280        0     1                 $t
+    3281     3281       26     1                 xTaskGetSchedulerState
+    32a6     32a6       b0     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.ulTaskGenericNotifyTake)
+    32a6     32a6        0     1                 $t
+    32a7     32a7       b0     1                 ulTaskGenericNotifyTake
+    3356     3356      164     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.vTaskGenericNotifyGiveFromISR)
+    3356     3356        0     1                 $t
+    3357     3357      164     1                 vTaskGenericNotifyGiveFromISR
+    34bc     34bc       2e     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.text.prvIdleTask)
+    34bc     34bc        0     1                 $t
+    34bd     34bd       2e     1                 prvIdleTask
+    34ea     34ea       7e     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.text.xTimerCreateTimerTask)
+    34ea     34ea        0     1                 $t
+    34eb     34eb       7e     1                 xTimerCreateTimerTask
+    3568     3568       7a     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.text.prvCheckForValidListAndQueue)
+    3568     3568        0     1                 $t
+    3569     3569       7a     1                 prvCheckForValidListAndQueue
+    35e4     35e4      180     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.text.prvTimerTask)
+    35e4     35e4        0     1                 $t
+    35e5     35e5      180     1                 prvTimerTask
+    36c6     36c6        0     1                 $d
+    36d0     36d0        0     1                 $t
+    3764     3764       56     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.text.prvSampleTimeNow)
+    3764     3764        0     1                 $t
+    3765     3765       56     1                 prvSampleTimeNow
+    37ba     37ba       40     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.text.prvProcessExpiredTimer)
+    37ba     37ba        0     1                 $t
+    37bb     37bb       40     1                 prvProcessExpiredTimer
+    37fc     37fc       2e     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.text.prvReloadTimer)
+    37fc     37fc        0     1                 $t
+    37fd     37fd       2e     1                 prvReloadTimer
+    382a     382a       40     2         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.text.prvInsertTimerInActiveList)
+    382a     382a        0     1                 $t
+    382b     382b       40     1                 prvInsertTimerInActiveList
+    386a     386a        8     2         C:\Renesas\e2_studio\toolchains\llvm_arm\ATfE-21.1.1-Windows-x86_64\bin\..\lib\clang-runtimes/arm-none-eabi/armv8m.main_hard_fp_exn_rtti_unaligned_size\lib\libc.a(bzero.c.o):(.text.bzero)
+    386a     386a        0     1                 $t
+    386b     386b        8     1                 bzero
+    386b     386b        8     1                 __aeabi_memclr4
+    386b     386b        8     1                 __aeabi_memclr8
+    386b     386b        8     1                 __aeabi_memclr
+    3872     3872       12     2         C:\Renesas\e2_studio\toolchains\llvm_arm\ATfE-21.1.1-Windows-x86_64\bin\..\lib\clang-runtimes/arm-none-eabi/armv8m.main_hard_fp_exn_rtti_unaligned_size\lib\libc.a(memcpy.c.o):(.text.memcpy)
+    3872     3872        0     1                 $t
+    3873     3873       12     1                 memcpy
+    3873     3873       12     1                 __aeabi_memcpy4
+    3873     3873       12     1                 __aeabi_memcpy8
+    3873     3873       12     1                 __aeabi_memcpy
+    3884     3884        e     2         C:\Renesas\e2_studio\toolchains\llvm_arm\ATfE-21.1.1-Windows-x86_64\bin\..\lib\clang-runtimes/arm-none-eabi/armv8m.main_hard_fp_exn_rtti_unaligned_size\lib\libc.a(memset.c.o):(.text.memset)
+    3884     3884        0     1                 $t
+    3885     3885        e     1                 memset
+    3894     3894       28     4         C:\Renesas\e2_studio\toolchains\llvm_arm\ATfE-21.1.1-Windows-x86_64\bin\..\lib\clang-runtimes/arm-none-eabi/armv8m.main_hard_fp_exn_rtti_unaligned_size\lib\libc.a(libc_picolib_inittls.c.o):(.text._init_tls)
+    3894     3894        0     1                 $t
+    3895     3895       28     1                 _init_tls
+    38ac     38ac        0     1                 $d
+    38bc     38bc       14     4         C:\Renesas\e2_studio\toolchains\llvm_arm\ATfE-21.1.1-Windows-x86_64\bin\..\lib\clang-runtimes/arm-none-eabi/armv8m.main_hard_fp_exn_rtti_unaligned_size\lib\libc.a(libc_picolib_machine_arm_set_tls.c.o):(.text._set_tls)
+    38bc     38bc        0     1                 $t
+    38bd     38bd       14     1                 _set_tls
+    38c8     38c8        0     1                 $d
+    38d0     38d0        1     1         ./ra_gen/common_data.o:(.rodata.g_external_irq9_ext_cfg)
+    38d0     38d0        1     1                 g_external_irq9_ext_cfg
+    38d4     38d4       14     4         ./ra_gen/common_data.o:(.rodata.g_external_irq9_cfg)
+    38d4     38d4       14     1                 g_external_irq9_cfg
+    38e8     38e8       58     4         ./ra_gen/hal_data.o:(.rodata.g_timer1_extend)
+    38e8     38e8       58     1                 g_timer1_extend
+    3940     3940       20     4         ./ra_gen/hal_data.o:(.rodata.g_timer1_cfg)
+    3940     3940       20     1                 g_timer1_cfg
+    3960     3960        d     1         ./ra_gen/hal_data.o:(.rodata.g_spi1_ext_cfg)
+    3960     3960        d     1                 g_spi1_ext_cfg
+    3970     3970       24     4         ./ra_gen/hal_data.o:(.rodata.g_spi1_cfg)
+    3970     3970       24     1                 g_spi1_cfg
+    3994     3994       58     4         ./ra_gen/hal_data.o:(.rodata.g_timer0_extend)
+    3994     3994       58     1                 g_timer0_extend
+    39ec     39ec       20     4         ./ra_gen/hal_data.o:(.rodata.g_timer0_cfg)
+    39ec     39ec       20     1                 g_timer0_cfg
+    3a0c     3a0c        4     4         ./ra_gen/led1_thread.o:(.rodata.led1_thread_parameters)
+    3a0c     3a0c        4     1                 led1_thread_parameters
+    3a10     3a10      7a0     1         <internal>:(.rodata.str1.1)
+    41b0     41b0        4     4         ./ra_gen/led2_thread.o:(.rodata.led2_thread_parameters)
+    41b0     41b0        4     1                 led2_thread_parameters
+    41b4     41b4      140     4         ./ra_gen/pin_data.o:(.rodata.g_bsp_pin_cfg_data)
+    41b4     41b4      140     1                 g_bsp_pin_cfg_data
+    42f4     42f4        c     4         ./ra_gen/pin_data.o:(.rodata.g_bsp_pin_cfg)
+    42f4     42f4        c     1                 g_bsp_pin_cfg
+    4300     4300        4     4         ./ra_gen/spi_slv_thread.o:(.rodata.spi_slv_thread_parameters)
+    4300     4300        4     1                 spi_slv_thread_parameters
+    4304     4304        c     2         ./ra_gen/vector_data.o:(.rodata.g_interrupt_event_link_select)
+    4304     4304        c     1                 g_interrupt_event_link_select
+    4310     4310        6     2         ./ra/fsp/src/r_ioport/r_ioport.o:(.rodata.g_vbatt_pins_input)
+    4310     4310        6     1                 g_vbatt_pins_input
+    4318     4318        8     4         ./ra/fsp/src/bsp/mcu/ra6e2/bsp_linker.o:(.rodata.nocache_list)
+    4318     4318        8     1                 nocache_list
+    4320     4320       18     4         ./ra/fsp/src/bsp/mcu/ra6e2/bsp_linker.o:(.rodata.g_init_info)
+    4320     4320       18     1                 g_init_info
+    4338     4338       24     4         ./ra/fsp/src/bsp/mcu/ra6e2/bsp_linker.o:(.rodata.zero_list)
+    4338     4338       24     1                 zero_list
+    435c     435c       40     4         ./ra/fsp/src/bsp/mcu/ra6e2/bsp_linker.o:(.rodata.copy_list)
+    435c     435c       40     1                 copy_list
+    439c     439c        a     2         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.rodata.g_prcr_masks)
+    439c     439c        a     1                 g_prcr_masks
+    43a8     43a8        4     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.rodata.uxTopUsedPriority)
+    43a8     43a8        4     1                 uxTopUsedPriority
+    43ac     43ac       4e     4         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.version)
+    43ac     43ac        4     1                 g_fsp_version
+    43b0     43b0        6     1                 g_fsp_version_string
+    43b6     43b6       44     1                 g_fsp_version_build_string
+    43fa     43fa        0     1         __flash_readonly$$Limit = .
+    43fa     43fa        0     1 __flash_preinit_array$$
+    43fa     43fa        0     1         __preinit_array_start = .
+    43fa     43fa        0     1         __preinit_array_end = .
+    43fa     43fa        0     1 __flash_init_array$$
+    43fa     43fa        0     1         __init_array_start = .
+    43fa     43fa        0     1         __init_array_end = .
+    43fa     43fa        0     1 __flash_fini_array$$
+    43fa     43fa        0     1         __fini_array_start = .
+    43fa     43fa        0     1         __fini_array_end = .
+    43fa     43fa        0     1 __flash_arm.exidx$$
+    43fa     43fa        0     1         __exidx_start = .
+    43fa     43fa        0     1         __exidx_end = .
     4400     4400        0     1 .flash.endof
     4400     4400        0     1         __ddsc_FLASH_END = .
     4400     4400        0     1 .flash.flat_nsc
@@ -705,308 +725,308 @@
  100a260  100a260        0     1 PROVIDE( __arm32_tls_tcb_offset = 8)
        0        0       3e     1 .ARM.attributes
        0        0       3e     1         C:\Renesas\e2_studio\toolchains\llvm_arm\ATfE-21.1.1-Windows-x86_64\bin\..\lib\clang-runtimes/arm-none-eabi/armv8m.main_hard_fp_exn_rtti_unaligned_size\lib\crt0.o:(.ARM.attributes)
-       0        0     591e     1 .debug_loclists
+       0        0     5942     1 .debug_loclists
        0        0       1e     1         ./src/ext_irq.o:(.debug_loclists)
       1e       1e       1e     1         ./src/hal_warmstart.o:(.debug_loclists)
       3c       3c       7c     1         ./src/led1_thread_entry.o:(.debug_loclists)
       b8       b8       7a     1         ./src/led2_thread_entry.o:(.debug_loclists)
-     132      132       34     1         ./src/spi_slv_thread_entry.o:(.debug_loclists)
-     166      166       1e     1         ./src/timer.o:(.debug_loclists)
-     184      184       22     1         ./ra_gen/led1_thread.o:(.debug_loclists)
-     1a6      1a6       22     1         ./ra_gen/led2_thread.o:(.debug_loclists)
-     1c8      1c8       45     1         ./ra_gen/main.o:(.debug_loclists)
-     20d      20d       22     1         ./ra_gen/spi_slv_thread.o:(.debug_loclists)
-     22f      22f      164     1         ./ra/fsp/src/rm_freertos_port/port.o:(.debug_loclists)
-     393      393      698     1         ./ra/fsp/src/r_spi/r_spi.o:(.debug_loclists)
-     a2b      a2b      4d3     1         ./ra/fsp/src/r_ioport/r_ioport.o:(.debug_loclists)
-     efe      efe      166     1         ./ra/fsp/src/r_icu/r_icu.o:(.debug_loclists)
-    1064     1064      7e0     1         ./ra/fsp/src/r_gpt/r_gpt.o:(.debug_loclists)
-    1844     1844      18c     1         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.debug_loclists)
-    19d0     19d0       1d     1         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.debug_loclists)
-    19ed     19ed      10e     1         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.debug_loclists)
-    1afb     1afb       35     1         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.debug_loclists)
-    1b30     1b30       48     1         ./ra/fsp/src/bsp/mcu/all/bsp_irq.o:(.debug_loclists)
-    1b78     1b78       44     1         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.debug_loclists)
-    1bbc     1bbc       1e     1         ./ra/fsp/src/bsp/mcu/all/bsp_sbrk.o:(.debug_loclists)
-    1bda     1bda       60     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.debug_loclists)
-    1c3a     1c3a      5e8     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.o:(.debug_loclists)
-    2222     2222       7d     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.debug_loclists)
-    229f     229f      da5     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.debug_loclists)
-    3044     3044      efb     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.o:(.debug_loclists)
-    3f3f     3f3f     12c7     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.debug_loclists)
-    5206     5206      718     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.debug_loclists)
-       0        0     4031     1 .debug_abbrev
+     132      132       58     1         ./src/spi_slv_thread_entry.o:(.debug_loclists)
+     18a      18a       1e     1         ./src/timer.o:(.debug_loclists)
+     1a8      1a8       22     1         ./ra_gen/led1_thread.o:(.debug_loclists)
+     1ca      1ca       22     1         ./ra_gen/led2_thread.o:(.debug_loclists)
+     1ec      1ec       45     1         ./ra_gen/main.o:(.debug_loclists)
+     231      231       22     1         ./ra_gen/spi_slv_thread.o:(.debug_loclists)
+     253      253      164     1         ./ra/fsp/src/rm_freertos_port/port.o:(.debug_loclists)
+     3b7      3b7      698     1         ./ra/fsp/src/r_spi/r_spi.o:(.debug_loclists)
+     a4f      a4f      4d3     1         ./ra/fsp/src/r_ioport/r_ioport.o:(.debug_loclists)
+     f22      f22      166     1         ./ra/fsp/src/r_icu/r_icu.o:(.debug_loclists)
+    1088     1088      7e0     1         ./ra/fsp/src/r_gpt/r_gpt.o:(.debug_loclists)
+    1868     1868      18c     1         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.debug_loclists)
+    19f4     19f4       1d     1         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.debug_loclists)
+    1a11     1a11      10e     1         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.debug_loclists)
+    1b1f     1b1f       35     1         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.debug_loclists)
+    1b54     1b54       48     1         ./ra/fsp/src/bsp/mcu/all/bsp_irq.o:(.debug_loclists)
+    1b9c     1b9c       44     1         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.debug_loclists)
+    1be0     1be0       1e     1         ./ra/fsp/src/bsp/mcu/all/bsp_sbrk.o:(.debug_loclists)
+    1bfe     1bfe       60     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.debug_loclists)
+    1c5e     1c5e      5e8     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.o:(.debug_loclists)
+    2246     2246       7d     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.debug_loclists)
+    22c3     22c3      da5     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.debug_loclists)
+    3068     3068      efb     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.o:(.debug_loclists)
+    3f63     3f63     12c7     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.debug_loclists)
+    522a     522a      718     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.debug_loclists)
+       0        0     4096     1 .debug_abbrev
        0        0       90     1         ./src/ext_irq.o:(.debug_abbrev)
       90       90       2f     1         ./src/hal_entry.o:(.debug_abbrev)
       bf       bf      106     1         ./src/hal_warmstart.o:(.debug_abbrev)
      1c5      1c5      1c6     1         ./src/led1_thread_entry.o:(.debug_abbrev)
      38b      38b      1ed     1         ./src/led2_thread_entry.o:(.debug_abbrev)
-     578      578      134     1         ./src/spi_slv_thread_entry.o:(.debug_abbrev)
-     6ac      6ac       a8     1         ./src/timer.o:(.debug_abbrev)
-     754      754      144     1         ./ra_gen/common_data.o:(.debug_abbrev)
-     898      898      25e     1         ./ra_gen/hal_data.o:(.debug_abbrev)
-     af6      af6      159     1         ./ra_gen/led1_thread.o:(.debug_abbrev)
-     c4f      c4f      159     1         ./ra_gen/led2_thread.o:(.debug_abbrev)
-     da8      da8      123     1         ./ra_gen/main.o:(.debug_abbrev)
-     ecb      ecb       e6     1         ./ra_gen/pin_data.o:(.debug_abbrev)
-     fb1      fb1      159     1         ./ra_gen/spi_slv_thread.o:(.debug_abbrev)
-    110a     110a       92     1         ./ra_gen/vector_data.o:(.debug_abbrev)
-    119c     119c      32b     1         ./ra/fsp/src/rm_freertos_port/port.o:(.debug_abbrev)
-    14c7     14c7      413     1         ./ra/fsp/src/r_spi/r_spi.o:(.debug_abbrev)
-    18da     18da      2fc     1         ./ra/fsp/src/r_ioport/r_ioport.o:(.debug_abbrev)
-    1bd6     1bd6      35f     1         ./ra/fsp/src/r_icu/r_icu.o:(.debug_abbrev)
-    1f35     1f35      3f7     1         ./ra/fsp/src/r_gpt/r_gpt.o:(.debug_abbrev)
-    232c     232c       a2     1         ./ra/fsp/src/bsp/mcu/ra6e2/bsp_linker.o:(.debug_abbrev)
-    23ce     23ce      2de     1         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.debug_abbrev)
-    26ac     26ac      149     1         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.debug_abbrev)
-    27f5     27f5       ad     1         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.debug_abbrev)
-    28a2     28a2      1ff     1         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.debug_abbrev)
-    2aa1     2aa1       44     1         ./ra/fsp/src/bsp/mcu/all/bsp_io.o:(.debug_abbrev)
-    2ae5     2ae5      1a3     1         ./ra/fsp/src/bsp/mcu/all/bsp_irq.o:(.debug_abbrev)
-    2c88     2c88      209     1         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.debug_abbrev)
-    2e91     2e91       67     1         ./ra/fsp/src/bsp/mcu/all/bsp_sbrk.o:(.debug_abbrev)
-    2ef8     2ef8       a7     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o:(.debug_abbrev)
-    2f9f     2f9f      1ff     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.debug_abbrev)
-    319e     319e       43     1         ./ra/board/ra6e2_fpb/board_init.o:(.debug_abbrev)
-    31e1     31e1       91     1         ./ra/board/ra6e2_fpb/board_leds.o:(.debug_abbrev)
-    3272     3272      215     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.o:(.debug_abbrev)
-    3487     3487       c1     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.debug_abbrev)
-    3548     3548      274     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.debug_abbrev)
-    37bc     37bc      247     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.o:(.debug_abbrev)
-    3a03     3a03      361     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.debug_abbrev)
-    3d64     3d64      2cd     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.debug_abbrev)
-       0        0    2fd0c     1 .debug_info
+     578      578      179     1         ./src/spi_slv_thread_entry.o:(.debug_abbrev)
+     6f1      6f1       a8     1         ./src/timer.o:(.debug_abbrev)
+     799      799      144     1         ./ra_gen/common_data.o:(.debug_abbrev)
+     8dd      8dd      27e     1         ./ra_gen/hal_data.o:(.debug_abbrev)
+     b5b      b5b      159     1         ./ra_gen/led1_thread.o:(.debug_abbrev)
+     cb4      cb4      159     1         ./ra_gen/led2_thread.o:(.debug_abbrev)
+     e0d      e0d      123     1         ./ra_gen/main.o:(.debug_abbrev)
+     f30      f30       e6     1         ./ra_gen/pin_data.o:(.debug_abbrev)
+    1016     1016      159     1         ./ra_gen/spi_slv_thread.o:(.debug_abbrev)
+    116f     116f       92     1         ./ra_gen/vector_data.o:(.debug_abbrev)
+    1201     1201      32b     1         ./ra/fsp/src/rm_freertos_port/port.o:(.debug_abbrev)
+    152c     152c      413     1         ./ra/fsp/src/r_spi/r_spi.o:(.debug_abbrev)
+    193f     193f      2fc     1         ./ra/fsp/src/r_ioport/r_ioport.o:(.debug_abbrev)
+    1c3b     1c3b      35f     1         ./ra/fsp/src/r_icu/r_icu.o:(.debug_abbrev)
+    1f9a     1f9a      3f7     1         ./ra/fsp/src/r_gpt/r_gpt.o:(.debug_abbrev)
+    2391     2391       a2     1         ./ra/fsp/src/bsp/mcu/ra6e2/bsp_linker.o:(.debug_abbrev)
+    2433     2433      2de     1         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.debug_abbrev)
+    2711     2711      149     1         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.debug_abbrev)
+    285a     285a       ad     1         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.debug_abbrev)
+    2907     2907      1ff     1         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.debug_abbrev)
+    2b06     2b06       44     1         ./ra/fsp/src/bsp/mcu/all/bsp_io.o:(.debug_abbrev)
+    2b4a     2b4a      1a3     1         ./ra/fsp/src/bsp/mcu/all/bsp_irq.o:(.debug_abbrev)
+    2ced     2ced      209     1         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.debug_abbrev)
+    2ef6     2ef6       67     1         ./ra/fsp/src/bsp/mcu/all/bsp_sbrk.o:(.debug_abbrev)
+    2f5d     2f5d       a7     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o:(.debug_abbrev)
+    3004     3004      1ff     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.debug_abbrev)
+    3203     3203       43     1         ./ra/board/ra6e2_fpb/board_init.o:(.debug_abbrev)
+    3246     3246       91     1         ./ra/board/ra6e2_fpb/board_leds.o:(.debug_abbrev)
+    32d7     32d7      215     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.o:(.debug_abbrev)
+    34ec     34ec       c1     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.debug_abbrev)
+    35ad     35ad      274     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.debug_abbrev)
+    3821     3821      247     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.o:(.debug_abbrev)
+    3a68     3a68      361     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.debug_abbrev)
+    3dc9     3dc9      2cd     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.debug_abbrev)
+       0        0    2fe8c     1 .debug_info
        0        0       8e     1         ./src/ext_irq.o:(.debug_info)
       8e       8e       2f     1         ./src/hal_entry.o:(.debug_info)
       bd       bd      9fb     1         ./src/hal_warmstart.o:(.debug_info)
      ab8      ab8     1003     1         ./src/led1_thread_entry.o:(.debug_info)
     1abb     1abb      fd1     1         ./src/led2_thread_entry.o:(.debug_info)
-    2a8c     2a8c      714     1         ./src/spi_slv_thread_entry.o:(.debug_info)
-    31a0     31a0       d1     1         ./src/timer.o:(.debug_info)
-    3271     3271      ed9     1         ./ra_gen/common_data.o:(.debug_info)
-    414a     414a     401d     1         ./ra_gen/hal_data.o:(.debug_info)
-    8167     8167      21a     1         ./ra_gen/led1_thread.o:(.debug_info)
-    8381     8381      21a     1         ./ra_gen/led2_thread.o:(.debug_info)
-    859b     859b      36e     1         ./ra_gen/main.o:(.debug_info)
-    8909     8909      49b     1         ./ra_gen/pin_data.o:(.debug_info)
-    8da4     8da4      21a     1         ./ra_gen/spi_slv_thread.o:(.debug_info)
-    8fbe     8fbe      34d     1         ./ra_gen/vector_data.o:(.debug_info)
-    930b     930b     3786     1         ./ra/fsp/src/rm_freertos_port/port.o:(.debug_info)
-    ca91     ca91     61d8     1         ./ra/fsp/src/r_spi/r_spi.o:(.debug_info)
-   12c69    12c69     2ff3     1         ./ra/fsp/src/r_ioport/r_ioport.o:(.debug_info)
-   15c5c    15c5c     13f3     1         ./ra/fsp/src/r_icu/r_icu.o:(.debug_info)
-   1704f    1704f     82c8     1         ./ra/fsp/src/r_gpt/r_gpt.o:(.debug_info)
-   1f317    1f317      1df     1         ./ra/fsp/src/bsp/mcu/ra6e2/bsp_linker.o:(.debug_info)
-   1f4f6    1f4f6     4717     1         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.debug_info)
-   23c0d    23c0d      59c     1         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.debug_info)
-   241a9    241a9      104     1         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.debug_info)
-   242ad    242ad      dba     1         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.debug_info)
-   25067    25067       43     1         ./ra/fsp/src/bsp/mcu/all/bsp_io.o:(.debug_info)
-   250aa    250aa     15ae     1         ./ra/fsp/src/bsp/mcu/all/bsp_irq.o:(.debug_info)
-   26658    26658     2ec8     1         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.debug_info)
-   29520    29520       5f     1         ./ra/fsp/src/bsp/mcu/all/bsp_sbrk.o:(.debug_info)
-   2957f    2957f       b1     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o:(.debug_info)
-   29630    29630      ac6     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.debug_info)
-   2a0f6    2a0f6       3b     1         ./ra/board/ra6e2_fpb/board_init.o:(.debug_info)
-   2a131    2a131       88     1         ./ra/board/ra6e2_fpb/board_leds.o:(.debug_info)
-   2a1b9    2a1b9      9dd     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.o:(.debug_info)
-   2ab96    2ab96      1ac     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.debug_info)
-   2ad42    2ad42     130f     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.debug_info)
-   2c051    2c051     1067     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.o:(.debug_info)
-   2d0b8    2d0b8     1d11     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.debug_info)
-   2edc9    2edc9      f43     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.debug_info)
-       0        0     f4b8     1 .debug_str_offsets
+    2a8c     2a8c      86c     1         ./src/spi_slv_thread_entry.o:(.debug_info)
+    32f8     32f8       d1     1         ./src/timer.o:(.debug_info)
+    33c9     33c9      ed9     1         ./ra_gen/common_data.o:(.debug_info)
+    42a2     42a2     4045     1         ./ra_gen/hal_data.o:(.debug_info)
+    82e7     82e7      21a     1         ./ra_gen/led1_thread.o:(.debug_info)
+    8501     8501      21a     1         ./ra_gen/led2_thread.o:(.debug_info)
+    871b     871b      36e     1         ./ra_gen/main.o:(.debug_info)
+    8a89     8a89      49b     1         ./ra_gen/pin_data.o:(.debug_info)
+    8f24     8f24      21a     1         ./ra_gen/spi_slv_thread.o:(.debug_info)
+    913e     913e      34d     1         ./ra_gen/vector_data.o:(.debug_info)
+    948b     948b     3786     1         ./ra/fsp/src/rm_freertos_port/port.o:(.debug_info)
+    cc11     cc11     61d8     1         ./ra/fsp/src/r_spi/r_spi.o:(.debug_info)
+   12de9    12de9     2ff3     1         ./ra/fsp/src/r_ioport/r_ioport.o:(.debug_info)
+   15ddc    15ddc     13f3     1         ./ra/fsp/src/r_icu/r_icu.o:(.debug_info)
+   171cf    171cf     82c8     1         ./ra/fsp/src/r_gpt/r_gpt.o:(.debug_info)
+   1f497    1f497      1df     1         ./ra/fsp/src/bsp/mcu/ra6e2/bsp_linker.o:(.debug_info)
+   1f676    1f676     4717     1         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.debug_info)
+   23d8d    23d8d      59c     1         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.debug_info)
+   24329    24329      104     1         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.debug_info)
+   2442d    2442d      dba     1         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.debug_info)
+   251e7    251e7       43     1         ./ra/fsp/src/bsp/mcu/all/bsp_io.o:(.debug_info)
+   2522a    2522a     15ae     1         ./ra/fsp/src/bsp/mcu/all/bsp_irq.o:(.debug_info)
+   267d8    267d8     2ec8     1         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.debug_info)
+   296a0    296a0       5f     1         ./ra/fsp/src/bsp/mcu/all/bsp_sbrk.o:(.debug_info)
+   296ff    296ff       b1     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o:(.debug_info)
+   297b0    297b0      ac6     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.debug_info)
+   2a276    2a276       3b     1         ./ra/board/ra6e2_fpb/board_init.o:(.debug_info)
+   2a2b1    2a2b1       88     1         ./ra/board/ra6e2_fpb/board_leds.o:(.debug_info)
+   2a339    2a339      9dd     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.o:(.debug_info)
+   2ad16    2ad16      1ac     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.debug_info)
+   2aec2    2aec2     130f     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.debug_info)
+   2c1d1    2c1d1     1067     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.o:(.debug_info)
+   2d238    2d238     1d11     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.debug_info)
+   2ef49    2ef49      f43     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.debug_info)
+       0        0     f578     1 .debug_str_offsets
        0        0       44     1         ./src/ext_irq.o:(.debug_str_offsets)
       44       44       18     1         ./src/hal_entry.o:(.debug_str_offsets)
       5c       5c      820     1         ./src/hal_warmstart.o:(.debug_str_offsets)
      87c      87c      9a8     1         ./src/led1_thread_entry.o:(.debug_str_offsets)
     1224     1224      968     1         ./src/led2_thread_entry.o:(.debug_str_offsets)
-    1b8c     1b8c      5c8     1         ./src/spi_slv_thread_entry.o:(.debug_str_offsets)
-    2154     2154       84     1         ./src/timer.o:(.debug_str_offsets)
-    21d8     21d8      9cc     1         ./ra_gen/common_data.o:(.debug_str_offsets)
-    2ba4     2ba4     1744     1         ./ra_gen/hal_data.o:(.debug_str_offsets)
-    42e8     42e8       b4     1         ./ra_gen/led1_thread.o:(.debug_str_offsets)
-    439c     439c       b4     1         ./ra_gen/led2_thread.o:(.debug_str_offsets)
-    4450     4450      124     1         ./ra_gen/main.o:(.debug_str_offsets)
-    4574     4574      428     1         ./ra_gen/pin_data.o:(.debug_str_offsets)
-    499c     499c       b4     1         ./ra_gen/spi_slv_thread.o:(.debug_str_offsets)
-    4a50     4a50      330     1         ./ra_gen/vector_data.o:(.debug_str_offsets)
-    4d80     4d80      db8     1         ./ra/fsp/src/rm_freertos_port/port.o:(.debug_str_offsets)
-    5b38     5b38     1a98     1         ./ra/fsp/src/r_spi/r_spi.o:(.debug_str_offsets)
-    75d0     75d0      ff0     1         ./ra/fsp/src/r_ioport/r_ioport.o:(.debug_str_offsets)
-    85c0     85c0      7f4     1         ./ra/fsp/src/r_icu/r_icu.o:(.debug_str_offsets)
-    8db4     8db4     23ec     1         ./ra/fsp/src/r_gpt/r_gpt.o:(.debug_str_offsets)
-    b1a0     b1a0       9c     1         ./ra/fsp/src/bsp/mcu/ra6e2/bsp_linker.o:(.debug_str_offsets)
-    b23c     b23c     1010     1         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.debug_str_offsets)
-    c24c     c24c      468     1         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.debug_str_offsets)
-    c6b4     c6b4       74     1         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.debug_str_offsets)
-    c728     c728      698     1         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.debug_str_offsets)
-    cdc0     cdc0       24     1         ./ra/fsp/src/bsp/mcu/all/bsp_io.o:(.debug_str_offsets)
-    cde4     cde4      78c     1         ./ra/fsp/src/bsp/mcu/all/bsp_irq.o:(.debug_str_offsets)
-    d570     d570      bac     1         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.debug_str_offsets)
-    e11c     e11c       2c     1         ./ra/fsp/src/bsp/mcu/all/bsp_sbrk.o:(.debug_str_offsets)
-    e148     e148       3c     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o:(.debug_str_offsets)
-    e184     e184      344     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.debug_str_offsets)
-    e4c8     e4c8       1c     1         ./ra/board/ra6e2_fpb/board_init.o:(.debug_str_offsets)
-    e4e4     e4e4       3c     1         ./ra/board/ra6e2_fpb/board_leds.o:(.debug_str_offsets)
-    e520     e520      240     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.o:(.debug_str_offsets)
-    e760     e760       90     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.debug_str_offsets)
-    e7f0     e7f0      324     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.debug_str_offsets)
-    eb14     eb14      1d8     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.o:(.debug_str_offsets)
-    ecec     ecec      494     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.debug_str_offsets)
-    f180     f180      338     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.debug_str_offsets)
-       0        0    10b2b     1 .debug_str
-       0        0    10b2b     1         <internal>:(.debug_str)
-       0        0      ff4     1 .debug_addr
+    1b8c     1b8c      678     1         ./src/spi_slv_thread_entry.o:(.debug_str_offsets)
+    2204     2204       84     1         ./src/timer.o:(.debug_str_offsets)
+    2288     2288      9cc     1         ./ra_gen/common_data.o:(.debug_str_offsets)
+    2c54     2c54     1754     1         ./ra_gen/hal_data.o:(.debug_str_offsets)
+    43a8     43a8       b4     1         ./ra_gen/led1_thread.o:(.debug_str_offsets)
+    445c     445c       b4     1         ./ra_gen/led2_thread.o:(.debug_str_offsets)
+    4510     4510      124     1         ./ra_gen/main.o:(.debug_str_offsets)
+    4634     4634      428     1         ./ra_gen/pin_data.o:(.debug_str_offsets)
+    4a5c     4a5c       b4     1         ./ra_gen/spi_slv_thread.o:(.debug_str_offsets)
+    4b10     4b10      330     1         ./ra_gen/vector_data.o:(.debug_str_offsets)
+    4e40     4e40      db8     1         ./ra/fsp/src/rm_freertos_port/port.o:(.debug_str_offsets)
+    5bf8     5bf8     1a98     1         ./ra/fsp/src/r_spi/r_spi.o:(.debug_str_offsets)
+    7690     7690      ff0     1         ./ra/fsp/src/r_ioport/r_ioport.o:(.debug_str_offsets)
+    8680     8680      7f4     1         ./ra/fsp/src/r_icu/r_icu.o:(.debug_str_offsets)
+    8e74     8e74     23ec     1         ./ra/fsp/src/r_gpt/r_gpt.o:(.debug_str_offsets)
+    b260     b260       9c     1         ./ra/fsp/src/bsp/mcu/ra6e2/bsp_linker.o:(.debug_str_offsets)
+    b2fc     b2fc     1010     1         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.debug_str_offsets)
+    c30c     c30c      468     1         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.debug_str_offsets)
+    c774     c774       74     1         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.debug_str_offsets)
+    c7e8     c7e8      698     1         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.debug_str_offsets)
+    ce80     ce80       24     1         ./ra/fsp/src/bsp/mcu/all/bsp_io.o:(.debug_str_offsets)
+    cea4     cea4      78c     1         ./ra/fsp/src/bsp/mcu/all/bsp_irq.o:(.debug_str_offsets)
+    d630     d630      bac     1         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.debug_str_offsets)
+    e1dc     e1dc       2c     1         ./ra/fsp/src/bsp/mcu/all/bsp_sbrk.o:(.debug_str_offsets)
+    e208     e208       3c     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o:(.debug_str_offsets)
+    e244     e244      344     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.debug_str_offsets)
+    e588     e588       1c     1         ./ra/board/ra6e2_fpb/board_init.o:(.debug_str_offsets)
+    e5a4     e5a4       3c     1         ./ra/board/ra6e2_fpb/board_leds.o:(.debug_str_offsets)
+    e5e0     e5e0      240     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.o:(.debug_str_offsets)
+    e820     e820       90     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.debug_str_offsets)
+    e8b0     e8b0      324     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.debug_str_offsets)
+    ebd4     ebd4      1d8     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.o:(.debug_str_offsets)
+    edac     edac      494     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.debug_str_offsets)
+    f240     f240      338     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.debug_str_offsets)
+       0        0    10ba0     1 .debug_str
+       0        0    10ba0     1         <internal>:(.debug_str)
+       0        0     101c     1 .debug_addr
        0        0        c     1         ./src/ext_irq.o:(.debug_addr)
        c        c        c     1         ./src/hal_entry.o:(.debug_addr)
       18       18       10     1         ./src/hal_warmstart.o:(.debug_addr)
       28       28       28     1         ./src/led1_thread_entry.o:(.debug_addr)
       50       50       30     1         ./src/led2_thread_entry.o:(.debug_addr)
-      80       80       1c     1         ./src/spi_slv_thread_entry.o:(.debug_addr)
-      9c       9c        c     1         ./src/timer.o:(.debug_addr)
-      a8       a8       24     1         ./ra_gen/common_data.o:(.debug_addr)
-      cc       cc       2c     1         ./ra_gen/hal_data.o:(.debug_addr)
-      f8       f8       2c     1         ./ra_gen/led1_thread.o:(.debug_addr)
-     124      124       2c     1         ./ra_gen/led2_thread.o:(.debug_addr)
-     150      150       3c     1         ./ra_gen/main.o:(.debug_addr)
-     18c      18c       10     1         ./ra_gen/pin_data.o:(.debug_addr)
-     19c      19c       2c     1         ./ra_gen/spi_slv_thread.o:(.debug_addr)
-     1c8      1c8       10     1         ./ra_gen/vector_data.o:(.debug_addr)
-     1d8      1d8       bc     1         ./ra/fsp/src/rm_freertos_port/port.o:(.debug_addr)
-     294      294      130     1         ./ra/fsp/src/r_spi/r_spi.o:(.debug_addr)
-     3c4      3c4       94     1         ./ra/fsp/src/r_ioport/r_ioport.o:(.debug_addr)
-     458      458       4c     1         ./ra/fsp/src/r_icu/r_icu.o:(.debug_addr)
-     4a4      4a4      1c8     1         ./ra/fsp/src/r_gpt/r_gpt.o:(.debug_addr)
-     66c      66c       20     1         ./ra/fsp/src/bsp/mcu/ra6e2/bsp_linker.o:(.debug_addr)
-     68c      68c       64     1         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.debug_addr)
-     6f0      6f0       20     1         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.debug_addr)
-     710      710       20     1         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.debug_addr)
-     730      730       1c     1         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.debug_addr)
-     74c      74c        c     1         ./ra/fsp/src/bsp/mcu/all/bsp_io.o:(.debug_addr)
-     758      758       24     1         ./ra/fsp/src/bsp/mcu/all/bsp_irq.o:(.debug_addr)
-     77c      77c       30     1         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.debug_addr)
-     7ac      7ac        c     1         ./ra/fsp/src/bsp/mcu/all/bsp_sbrk.o:(.debug_addr)
-     7b8      7b8       1c     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o:(.debug_addr)
-     7d4      7d4       30     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.debug_addr)
-     804      804        c     1         ./ra/board/ra6e2_fpb/board_init.o:(.debug_addr)
-     810      810       10     1         ./ra/board/ra6e2_fpb/board_leds.o:(.debug_addr)
-     820      820       90     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.o:(.debug_addr)
-     8b0      8b0       1c     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.debug_addr)
-     8cc      8cc      17c     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.debug_addr)
-     a48      a48      17c     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.o:(.debug_addr)
-     bc4      bc4      318     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.debug_addr)
-     edc      edc      118     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.debug_addr)
+      80       80       34     1         ./src/spi_slv_thread_entry.o:(.debug_addr)
+      b4       b4        c     1         ./src/timer.o:(.debug_addr)
+      c0       c0       24     1         ./ra_gen/common_data.o:(.debug_addr)
+      e4       e4       3c     1         ./ra_gen/hal_data.o:(.debug_addr)
+     120      120       2c     1         ./ra_gen/led1_thread.o:(.debug_addr)
+     14c      14c       2c     1         ./ra_gen/led2_thread.o:(.debug_addr)
+     178      178       3c     1         ./ra_gen/main.o:(.debug_addr)
+     1b4      1b4       10     1         ./ra_gen/pin_data.o:(.debug_addr)
+     1c4      1c4       2c     1         ./ra_gen/spi_slv_thread.o:(.debug_addr)
+     1f0      1f0       10     1         ./ra_gen/vector_data.o:(.debug_addr)
+     200      200       bc     1         ./ra/fsp/src/rm_freertos_port/port.o:(.debug_addr)
+     2bc      2bc      130     1         ./ra/fsp/src/r_spi/r_spi.o:(.debug_addr)
+     3ec      3ec       94     1         ./ra/fsp/src/r_ioport/r_ioport.o:(.debug_addr)
+     480      480       4c     1         ./ra/fsp/src/r_icu/r_icu.o:(.debug_addr)
+     4cc      4cc      1c8     1         ./ra/fsp/src/r_gpt/r_gpt.o:(.debug_addr)
+     694      694       20     1         ./ra/fsp/src/bsp/mcu/ra6e2/bsp_linker.o:(.debug_addr)
+     6b4      6b4       64     1         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.debug_addr)
+     718      718       20     1         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.debug_addr)
+     738      738       20     1         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.debug_addr)
+     758      758       1c     1         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.debug_addr)
+     774      774        c     1         ./ra/fsp/src/bsp/mcu/all/bsp_io.o:(.debug_addr)
+     780      780       24     1         ./ra/fsp/src/bsp/mcu/all/bsp_irq.o:(.debug_addr)
+     7a4      7a4       30     1         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.debug_addr)
+     7d4      7d4        c     1         ./ra/fsp/src/bsp/mcu/all/bsp_sbrk.o:(.debug_addr)
+     7e0      7e0       1c     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o:(.debug_addr)
+     7fc      7fc       30     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.debug_addr)
+     82c      82c        c     1         ./ra/board/ra6e2_fpb/board_init.o:(.debug_addr)
+     838      838       10     1         ./ra/board/ra6e2_fpb/board_leds.o:(.debug_addr)
+     848      848       90     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.o:(.debug_addr)
+     8d8      8d8       1c     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.debug_addr)
+     8f4      8f4      17c     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.debug_addr)
+     a70      a70      17c     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.o:(.debug_addr)
+     bec      bec      318     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.debug_addr)
+     f04      f04      118     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.debug_addr)
        0        0       29     1 .comment
        0        0       29     1         <internal>:(.comment)
-       0        0     1b04     4 .debug_frame
+       0        0     1b34     4 .debug_frame
        0        0       30     4         ./src/ext_irq.o:(.debug_frame)
       30       30       24     4         ./src/hal_entry.o:(.debug_frame)
       54       54       24     4         ./src/hal_warmstart.o:(.debug_frame)
       78       78       24     4         ./src/led1_thread_entry.o:(.debug_frame)
       9c       9c       24     4         ./src/led2_thread_entry.o:(.debug_frame)
-      c0       c0       44     4         ./src/spi_slv_thread_entry.o:(.debug_frame)
-     104      104       30     4         ./src/timer.o:(.debug_frame)
-     134      134       24     4         ./ra_gen/common_data.o:(.debug_frame)
-     158      158       24     4         ./ra_gen/hal_data.o:(.debug_frame)
-     17c      17c       48     4         ./ra_gen/led1_thread.o:(.debug_frame)
-     1c4      1c4       48     4         ./ra_gen/led2_thread.o:(.debug_frame)
-     20c      20c       78     4         ./ra_gen/main.o:(.debug_frame)
-     284      284       48     4         ./ra_gen/spi_slv_thread.o:(.debug_frame)
-     2cc      2cc      13c     4         ./ra/fsp/src/rm_freertos_port/port.o:(.debug_frame)
-     408      408      190     4         ./ra/fsp/src/r_spi/r_spi.o:(.debug_frame)
-     598      598      150     4         ./ra/fsp/src/r_ioport/r_ioport.o:(.debug_frame)
-     6e8      6e8       94     4         ./ra/fsp/src/r_icu/r_icu.o:(.debug_frame)
-     77c      77c      208     4         ./ra/fsp/src/r_gpt/r_gpt.o:(.debug_frame)
-     984      984       f0     4         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.debug_frame)
-     a74      a74       44     4         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.debug_frame)
-     ab8      ab8       34     4         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.debug_frame)
-     aec      aec       44     4         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.debug_frame)
-     b30      b30       34     4         ./ra/fsp/src/bsp/mcu/all/bsp_irq.o:(.debug_frame)
-     b64      b64       3c     4         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.debug_frame)
-     ba0      ba0       2c     4         ./ra/fsp/src/bsp/mcu/all/bsp_sbrk.o:(.debug_frame)
-     bcc      bcc       34     4         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o:(.debug_frame)
-     c00      c00       60     4         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.debug_frame)
-     c60      c60       24     4         ./ra/board/ra6e2_fpb/board_init.o:(.debug_frame)
-     c84      c84      114     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.o:(.debug_frame)
-     d98      d98       6c     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.debug_frame)
-     e04      e04      300     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.debug_frame)
-    1104     1104      2c8     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.o:(.debug_frame)
-    13cc     13cc      4c8     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.debug_frame)
-    1894     1894      24c     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.debug_frame)
-    1ae0     1ae0       24     4         C:\Renesas\e2_studio\toolchains\llvm_arm\ATfE-21.1.1-Windows-x86_64\bin\..\lib\clang-runtimes/arm-none-eabi/armv8m.main_hard_fp_exn_rtti_unaligned_size\lib\libc.a(libc_picolib_machine_arm_read_tp.S.o):(.debug_frame)
-       0        0     7bc0     1 .debug_line
+      c0       c0       74     4         ./src/spi_slv_thread_entry.o:(.debug_frame)
+     134      134       30     4         ./src/timer.o:(.debug_frame)
+     164      164       24     4         ./ra_gen/common_data.o:(.debug_frame)
+     188      188       24     4         ./ra_gen/hal_data.o:(.debug_frame)
+     1ac      1ac       48     4         ./ra_gen/led1_thread.o:(.debug_frame)
+     1f4      1f4       48     4         ./ra_gen/led2_thread.o:(.debug_frame)
+     23c      23c       78     4         ./ra_gen/main.o:(.debug_frame)
+     2b4      2b4       48     4         ./ra_gen/spi_slv_thread.o:(.debug_frame)
+     2fc      2fc      13c     4         ./ra/fsp/src/rm_freertos_port/port.o:(.debug_frame)
+     438      438      190     4         ./ra/fsp/src/r_spi/r_spi.o:(.debug_frame)
+     5c8      5c8      150     4         ./ra/fsp/src/r_ioport/r_ioport.o:(.debug_frame)
+     718      718       94     4         ./ra/fsp/src/r_icu/r_icu.o:(.debug_frame)
+     7ac      7ac      208     4         ./ra/fsp/src/r_gpt/r_gpt.o:(.debug_frame)
+     9b4      9b4       f0     4         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.debug_frame)
+     aa4      aa4       44     4         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.debug_frame)
+     ae8      ae8       34     4         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.debug_frame)
+     b1c      b1c       44     4         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.debug_frame)
+     b60      b60       34     4         ./ra/fsp/src/bsp/mcu/all/bsp_irq.o:(.debug_frame)
+     b94      b94       3c     4         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.debug_frame)
+     bd0      bd0       2c     4         ./ra/fsp/src/bsp/mcu/all/bsp_sbrk.o:(.debug_frame)
+     bfc      bfc       34     4         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o:(.debug_frame)
+     c30      c30       60     4         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.debug_frame)
+     c90      c90       24     4         ./ra/board/ra6e2_fpb/board_init.o:(.debug_frame)
+     cb4      cb4      114     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.o:(.debug_frame)
+     dc8      dc8       6c     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.debug_frame)
+     e34      e34      300     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.debug_frame)
+    1134     1134      2c8     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.o:(.debug_frame)
+    13fc     13fc      4c8     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.debug_frame)
+    18c4     18c4      24c     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.debug_frame)
+    1b10     1b10       24     4         C:\Renesas\e2_studio\toolchains\llvm_arm\ATfE-21.1.1-Windows-x86_64\bin\..\lib\clang-runtimes/arm-none-eabi/armv8m.main_hard_fp_exn_rtti_unaligned_size\lib\libc.a(libc_picolib_machine_arm_read_tp.S.o):(.debug_frame)
+       0        0     7cda     1 .debug_line
        0        0       d9     1         ./src/ext_irq.o:(.debug_line)
       d9       d9       6e     1         ./src/hal_entry.o:(.debug_line)
      147      147      119     1         ./src/hal_warmstart.o:(.debug_line)
      260      260      116     1         ./src/led1_thread_entry.o:(.debug_line)
      376      376      126     1         ./src/led2_thread_entry.o:(.debug_line)
-     49c      49c      157     1         ./src/spi_slv_thread_entry.o:(.debug_line)
-     5f3      5f3       e1     1         ./src/timer.o:(.debug_line)
-     6d4      6d4      139     1         ./ra_gen/common_data.o:(.debug_line)
-     80d      80d      164     1         ./ra_gen/hal_data.o:(.debug_line)
-     971      971      139     1         ./ra_gen/led1_thread.o:(.debug_line)
-     aaa      aaa      139     1         ./ra_gen/led2_thread.o:(.debug_line)
-     be3      be3      1cc     1         ./ra_gen/main.o:(.debug_line)
-     daf      daf       bc     1         ./ra_gen/pin_data.o:(.debug_line)
-     e6b      e6b      139     1         ./ra_gen/spi_slv_thread.o:(.debug_line)
-     fa4      fa4       9f     1         ./ra_gen/vector_data.o:(.debug_line)
-    1043     1043      3c5     1         ./ra/fsp/src/rm_freertos_port/port.o:(.debug_line)
-    1408     1408      d30     1         ./ra/fsp/src/r_spi/r_spi.o:(.debug_line)
-    2138     2138      570     1         ./ra/fsp/src/r_ioport/r_ioport.o:(.debug_line)
-    26a8     26a8      2c1     1         ./ra/fsp/src/r_icu/r_icu.o:(.debug_line)
-    2969     2969      c7c     1         ./ra/fsp/src/r_gpt/r_gpt.o:(.debug_line)
-    35e5     35e5       a7     1         ./ra/fsp/src/bsp/mcu/ra6e2/bsp_linker.o:(.debug_line)
-    368c     368c      4b3     1         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.debug_line)
-    3b3f     3b3f      10e     1         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.debug_line)
-    3c4d     3c4d      14c     1         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.debug_line)
-    3d99     3d99      135     1         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.debug_line)
-    3ece     3ece       8e     1         ./ra/fsp/src/bsp/mcu/all/bsp_io.o:(.debug_line)
-    3f5c     3f5c       fc     1         ./ra/fsp/src/bsp/mcu/all/bsp_irq.o:(.debug_line)
-    4058     4058      116     1         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.debug_line)
-    416e     416e       b3     1         ./ra/fsp/src/bsp/mcu/all/bsp_sbrk.o:(.debug_line)
-    4221     4221       bf     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o:(.debug_line)
-    42e0     42e0      18f     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.debug_line)
-    446f     446f       6e     1         ./ra/board/ra6e2_fpb/board_init.o:(.debug_line)
-    44dd     44dd       a7     1         ./ra/board/ra6e2_fpb/board_leds.o:(.debug_line)
-    4584     4584      3e0     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.o:(.debug_line)
-    4964     4964      1d6     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.debug_line)
-    4b3a     4b3a      d1f     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.debug_line)
-    5859     5859      9b2     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.o:(.debug_line)
-    620b     620b     1372     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.debug_line)
-    757d     757d      643     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.debug_line)
+     49c      49c      271     1         ./src/spi_slv_thread_entry.o:(.debug_line)
+     70d      70d       e1     1         ./src/timer.o:(.debug_line)
+     7ee      7ee      139     1         ./ra_gen/common_data.o:(.debug_line)
+     927      927      164     1         ./ra_gen/hal_data.o:(.debug_line)
+     a8b      a8b      139     1         ./ra_gen/led1_thread.o:(.debug_line)
+     bc4      bc4      139     1         ./ra_gen/led2_thread.o:(.debug_line)
+     cfd      cfd      1cc     1         ./ra_gen/main.o:(.debug_line)
+     ec9      ec9       bc     1         ./ra_gen/pin_data.o:(.debug_line)
+     f85      f85      139     1         ./ra_gen/spi_slv_thread.o:(.debug_line)
+    10be     10be       9f     1         ./ra_gen/vector_data.o:(.debug_line)
+    115d     115d      3c5     1         ./ra/fsp/src/rm_freertos_port/port.o:(.debug_line)
+    1522     1522      d30     1         ./ra/fsp/src/r_spi/r_spi.o:(.debug_line)
+    2252     2252      570     1         ./ra/fsp/src/r_ioport/r_ioport.o:(.debug_line)
+    27c2     27c2      2c1     1         ./ra/fsp/src/r_icu/r_icu.o:(.debug_line)
+    2a83     2a83      c7c     1         ./ra/fsp/src/r_gpt/r_gpt.o:(.debug_line)
+    36ff     36ff       a7     1         ./ra/fsp/src/bsp/mcu/ra6e2/bsp_linker.o:(.debug_line)
+    37a6     37a6      4b3     1         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.debug_line)
+    3c59     3c59      10e     1         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.debug_line)
+    3d67     3d67      14c     1         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.debug_line)
+    3eb3     3eb3      135     1         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.debug_line)
+    3fe8     3fe8       8e     1         ./ra/fsp/src/bsp/mcu/all/bsp_io.o:(.debug_line)
+    4076     4076       fc     1         ./ra/fsp/src/bsp/mcu/all/bsp_irq.o:(.debug_line)
+    4172     4172      116     1         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.debug_line)
+    4288     4288       b3     1         ./ra/fsp/src/bsp/mcu/all/bsp_sbrk.o:(.debug_line)
+    433b     433b       bf     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o:(.debug_line)
+    43fa     43fa      18f     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.debug_line)
+    4589     4589       6e     1         ./ra/board/ra6e2_fpb/board_init.o:(.debug_line)
+    45f7     45f7       a7     1         ./ra/board/ra6e2_fpb/board_leds.o:(.debug_line)
+    469e     469e      3e0     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.o:(.debug_line)
+    4a7e     4a7e      1d6     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.debug_line)
+    4c54     4c54      d1f     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.debug_line)
+    5973     5973      9b2     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.o:(.debug_line)
+    6325     6325     1372     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.debug_line)
+    7697     7697      643     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.debug_line)
        0        0     118d     1 .debug_line_str
        0        0     118d     1         <internal>:(.debug_line_str)
-       0        0      903     1 .debug_rnglists
-       0        0       17     1         ./src/spi_slv_thread_entry.o:(.debug_rnglists)
-      17       17       17     1         ./ra_gen/led1_thread.o:(.debug_rnglists)
-      2e       2e       17     1         ./ra_gen/led2_thread.o:(.debug_rnglists)
-      45       45       20     1         ./ra_gen/main.o:(.debug_rnglists)
-      65       65       17     1         ./ra_gen/spi_slv_thread.o:(.debug_rnglists)
-      7c       7c       65     1         ./ra/fsp/src/rm_freertos_port/port.o:(.debug_rnglists)
-      e1       e1       6a     1         ./ra/fsp/src/r_spi/r_spi.o:(.debug_rnglists)
-     14b      14b       4d     1         ./ra/fsp/src/r_ioport/r_ioport.o:(.debug_rnglists)
-     198      198       3e     1         ./ra/fsp/src/r_icu/r_icu.o:(.debug_rnglists)
-     1d6      1d6      13c     1         ./ra/fsp/src/r_gpt/r_gpt.o:(.debug_rnglists)
-     312      312       5b     1         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.debug_rnglists)
-     36d      36d       1a     1         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.debug_rnglists)
-     387      387       18     1         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.debug_rnglists)
-     39f      39f       17     1         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.debug_rnglists)
-     3b6      3b6       17     1         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.debug_rnglists)
-     3cd      3cd       17     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o:(.debug_rnglists)
-     3e4      3e4       1b     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.debug_rnglists)
-     3ff      3ff       4e     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.o:(.debug_rnglists)
-     44d      44d       20     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.debug_rnglists)
-     46d      46d      168     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.debug_rnglists)
-     5d5      5d5       89     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.o:(.debug_rnglists)
-     65e      65e      226     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.debug_rnglists)
-     884      884       7f     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.debug_rnglists)
-       0        0     1fb0     4 .symtab
-       0        0     1fb0     4         <internal>:(.symtab)
+       0        0      919     1 .debug_rnglists
+       0        0       2d     1         ./src/spi_slv_thread_entry.o:(.debug_rnglists)
+      2d       2d       17     1         ./ra_gen/led1_thread.o:(.debug_rnglists)
+      44       44       17     1         ./ra_gen/led2_thread.o:(.debug_rnglists)
+      5b       5b       20     1         ./ra_gen/main.o:(.debug_rnglists)
+      7b       7b       17     1         ./ra_gen/spi_slv_thread.o:(.debug_rnglists)
+      92       92       65     1         ./ra/fsp/src/rm_freertos_port/port.o:(.debug_rnglists)
+      f7       f7       6a     1         ./ra/fsp/src/r_spi/r_spi.o:(.debug_rnglists)
+     161      161       4d     1         ./ra/fsp/src/r_ioport/r_ioport.o:(.debug_rnglists)
+     1ae      1ae       3e     1         ./ra/fsp/src/r_icu/r_icu.o:(.debug_rnglists)
+     1ec      1ec      13c     1         ./ra/fsp/src/r_gpt/r_gpt.o:(.debug_rnglists)
+     328      328       5b     1         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.debug_rnglists)
+     383      383       1a     1         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.debug_rnglists)
+     39d      39d       18     1         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.debug_rnglists)
+     3b5      3b5       17     1         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.debug_rnglists)
+     3cc      3cc       17     1         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.debug_rnglists)
+     3e3      3e3       17     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o:(.debug_rnglists)
+     3fa      3fa       1b     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.debug_rnglists)
+     415      415       4e     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.o:(.debug_rnglists)
+     463      463       20     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.debug_rnglists)
+     483      483      168     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.debug_rnglists)
+     5eb      5eb       89     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.o:(.debug_rnglists)
+     674      674      226     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.debug_rnglists)
+     89a      89a       7f     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.debug_rnglists)
+       0        0     2060     4 .symtab
+       0        0     2060     4         <internal>:(.symtab)
        0        0      4da     1 .shstrtab
        0        0      4da     1         <internal>:(.shstrtab)
-       0        0     1efa     1 .strtab
-       0        0     1efa     1         <internal>:(.strtab)
+       0        0     1f72     1 .strtab
+       0        0     1f72     1         <internal>:(.strtab)
 
 Cross Reference Table
 
@@ -1061,9 +1081,11 @@ g_timer0_cfg                                      ./ra_gen/hal_data.o
                                                   ./src/led1_thread_entry.o
 R_GPT_Open                                        ./ra/fsp/src/r_gpt/r_gpt.o
                                                   ./src/led1_thread_entry.o
+                                                  ./src/spi_slv_thread_entry.o
 R_GPT_Start                                       ./ra/fsp/src/r_gpt/r_gpt.o
                                                   ./src/led1_thread_entry.o
                                                   ./src/led2_thread_entry.o
+                                                  ./src/spi_slv_thread_entry.o
 g_protect_pfswe_counter                           ./ra/fsp/src/bsp/mcu/all/bsp_io.o
                                                   ./src/led1_thread_entry.o
                                                   ./src/led2_thread_entry.o
@@ -1084,11 +1106,16 @@ R_ICU_ExternalIrqEnable                           ./ra/fsp/src/r_icu/r_icu.o
                                                   ./src/led2_thread_entry.o
 R_GPT_Stop                                        ./ra/fsp/src/r_gpt/r_gpt.o
                                                   ./src/led2_thread_entry.o
+                                                  ./src/spi_slv_thread_entry.o
 R_GPT_PeriodSet                                   ./ra/fsp/src/r_gpt/r_gpt.o
                                                   ./src/led2_thread_entry.o
 spi_slv_thread_entry                              ./src/spi_slv_thread_entry.o
                                                   ./ra_gen/spi_slv_thread.o
 spi_slv_thread                                    ./ra_gen/spi_slv_thread.o
+                                                  ./src/spi_slv_thread_entry.o
+g_timer1_ctrl                                     ./ra_gen/hal_data.o
+                                                  ./src/spi_slv_thread_entry.o
+g_timer1_cfg                                      ./ra_gen/hal_data.o
                                                   ./src/spi_slv_thread_entry.o
 g_spi1_ctrl                                       ./ra_gen/hal_data.o
                                                   ./src/spi_slv_thread_entry.o
@@ -1096,12 +1123,23 @@ g_spi1_cfg                                        ./ra_gen/hal_data.o
                                                   ./src/spi_slv_thread_entry.o
 R_SPI_Open                                        ./ra/fsp/src/r_spi/r_spi.o
                                                   ./src/spi_slv_thread_entry.o
+count                                             ./src/spi_slv_thread_entry.o
+last_count                                        ./src/spi_slv_thread_entry.o
 tx_buf                                            ./src/spi_slv_thread_entry.o
 rx_buf                                            ./src/spi_slv_thread_entry.o
 R_SPI_WriteRead                                   ./ra/fsp/src/r_spi/r_spi.o
                                                   ./src/spi_slv_thread_entry.o
+received_buf                                      ./src/spi_slv_thread_entry.o
+return_buf                                        ./src/spi_slv_thread_entry.o
 spi1_callback                                     ./src/spi_slv_thread_entry.o
                                                   ./ra_gen/hal_data.o
+g_timer1_callback                                 ./src/spi_slv_thread_entry.o
+                                                  ./ra_gen/hal_data.o
+__aeabi_memcpy4                                   C:\Renesas\e2_studio\toolchains\llvm_arm\ATfE-21.1.1-Windows-x86_64\bin\..\lib\clang-runtimes/arm-none-eabi/armv8m.main_hard_fp_exn_rtti_unaligned_size\lib\libc.a(memcpy.c.o)
+                                                  ./src/spi_slv_thread_entry.o
+                                                  ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+R_SPI_Close                                       ./ra/fsp/src/r_spi/r_spi.o
+                                                  ./src/spi_slv_thread_entry.o
 g_timer0_callback                                 ./src/timer.o
                                                   ./ra_gen/hal_data.o
 g_common_init                                     ./ra_gen/common_data.o
@@ -1109,6 +1147,7 @@ g_common_init                                     ./ra_gen/common_data.o
 g_external_irq9_ext_cfg                           ./ra_gen/common_data.o
 g_hal_init                                        ./ra_gen/hal_data.o
                                                   ./ra_gen/main.o
+g_timer1_extend                                   ./ra_gen/hal_data.o
 g_spi1_ext_cfg                                    ./ra_gen/hal_data.o
 g_timer0_extend                                   ./ra_gen/hal_data.o
 led1_thread_create                                ./ra_gen/led1_thread.o
@@ -1325,8 +1364,6 @@ __init_array_end                                  fsp_gen.lld:264
 __aeabi_memclr4                                   C:\Renesas\e2_studio\toolchains\llvm_arm\ATfE-21.1.1-Windows-x86_64\bin\..\lib\clang-runtimes/arm-none-eabi/armv8m.main_hard_fp_exn_rtti_unaligned_size\lib\libc.a(bzero.c.o)
                                                   ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
                                                   ./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.o
-__aeabi_memcpy4                                   C:\Renesas\e2_studio\toolchains\llvm_arm\ATfE-21.1.1-Windows-x86_64\bin\..\lib\clang-runtimes/arm-none-eabi/armv8m.main_hard_fp_exn_rtti_unaligned_size\lib\libc.a(memcpy.c.o)
-                                                  ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
 vListInitialise                                   ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o
                                                   ./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.o
                                                   ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o

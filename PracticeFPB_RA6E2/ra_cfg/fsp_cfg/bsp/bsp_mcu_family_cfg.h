@@ -116,7 +116,7 @@ extern "C" {
             (((RA_NOT_DEFINED > 0) ? 0U : 1U) << 28) /* GPT3 */ | \
             (((RA_NOT_DEFINED > 0) ? 0U : 1U) << 29) /* GPT2 */ | \
             (((RA_NOT_DEFINED > 0) ? 0U : 1U) << 30) /* GPT1 */ | \
-            (((1 > 0) ? 0U : 1U) << 31) /* GPT0 */ | \
+            (((2 > 0) ? 0U : 1U) << 31) /* GPT0 */ | \
             0x03FFFFF8) /* Unused */
 #endif
 #ifndef BSP_TZ_CFG_MSSAR
