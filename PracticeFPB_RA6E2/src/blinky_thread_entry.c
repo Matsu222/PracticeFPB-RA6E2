@@ -5,8 +5,8 @@
  */
 
 #include "blinky_thread.h"
+#include "common_data.h"
 
-extern bsp_leds_t g_bsp_leds;
 extern TaskHandle_t blinky_thread;
 
 /* Blinky Thread entry function */
@@ -17,6 +17,9 @@ void blinky_thread_entry(void *pvParameters)
 
     R_GPT_Open (&g_timer0_ctrl, &g_timer0_cfg);
     R_GPT_Start(&g_timer0_ctrl);
+
+    R_ICU_ExternalIrqOpen(&g_external_irq9_ctrl, &g_external_irq9_cfg);
+    R_ICU_ExternalIrqEnable(&g_external_irq9_ctrl);
 
     /* Holds level to set for pins */
     bsp_io_level_t pin_level = BSP_IO_LEVEL_LOW;

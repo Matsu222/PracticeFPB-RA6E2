@@ -251,6 +251,9 @@ FSP Configuration
     Pin Output Support: Disabled
     Write Protect Enable: Disabled
     
+  Module "External IRQ (r_icu)"
+    Parameter Checking: Default (BSP)
+    
   FreeRTOS
     General: Custom FreeRTOSConfig.h: 
     General: Use Preemption: Enabled
@@ -394,6 +397,16 @@ FSP Configuration
       Extra Features: Interrupt Skipping (Channels with GTITC only): Skip ADC Events: None
       Extra Features: Output Disable: GTIOCA Disable Setting: Disable Prohibited
       Extra Features: Output Disable: GTIOCB Disable Setting: Disable Prohibited
+      
+    Instance "g_external_irq9 External IRQ (r_icu)"
+      Name: g_external_irq9
+      Channel: 9
+      Trigger: Falling
+      Digital Filtering: Disabled
+      Filter Source: PCLK filter
+      Digital Filtering Sample Clock (Only valid when Digital Filtering is Enabled): PCLK / 64
+      Callback: g_irq9_callback
+      Pin Interrupt Priority: Priority 12
       
   Thread "Blinky Thread"
     Symbol: blinky_thread

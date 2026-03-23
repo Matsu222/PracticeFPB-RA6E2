@@ -54,8 +54,12 @@
             <slot name="P500.CM33" secure="true"/>
         </peripheral>
         <peripheral name="GPT0.CM33" group="GPT" security="s"/>
+        <peripheral name="ICU_EXT_IRQ.CM33">
+            <slot name="ICU_EXT_IRQ9.CM33" secure="true"/>
+        </peripheral>
         <peripheral name="ICU.CM33">
             <slot name="IRQ0.CM33" secure="true"/>
+            <slot name="IRQ1.CM33" secure="true"/>
         </peripheral>
     </partition>
 </azone>
