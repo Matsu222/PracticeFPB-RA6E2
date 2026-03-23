@@ -310,10 +310,19 @@
       <stack module="module.driver.timer_on_gpt.322968135"/>
       <stack module="module.driver.external_irq_on_icu.91422162"/>
     </context>
-    <context id="rtos.awsfreertos.thread.0">
-      <property id="_symbol" value="blinky_thread"/>
-      <property id="rtos.awsfreertos.thread.name" value="Blinky Thread"/>
-      <property id="rtos.awsfreertos.thread.stack" value="512"/>
+    <context id="rtos.awsfreertos.thread.1001951432">
+      <property id="_symbol" value="led1_thread"/>
+      <property id="rtos.awsfreertos.thread.name" value="LED1 Thread"/>
+      <property id="rtos.awsfreertos.thread.stack" value="1024"/>
+      <property id="rtos.awsfreertos.thread.priority" value="1"/>
+      <property id="rtos.awsfreertos.thread.context" value="NULL"/>
+      <property id="rtos.awsfreertos.thread.allocation" value="rtos.awsfreertos.thread.allocation.static"/>
+      <property id="rtos.awsfreertos.thread.secure_context" value="rtos.awsfreertos.thread.secure_context.enable"/>
+    </context>
+    <context id="rtos.awsfreertos.thread.744171797">
+      <property id="_symbol" value="led2_thread"/>
+      <property id="rtos.awsfreertos.thread.name" value="LED2 Thread"/>
+      <property id="rtos.awsfreertos.thread.stack" value="1024"/>
       <property id="rtos.awsfreertos.thread.priority" value="1"/>
       <property id="rtos.awsfreertos.thread.context" value="NULL"/>
       <property id="rtos.awsfreertos.thread.allocation" value="rtos.awsfreertos.thread.allocation.static"/>

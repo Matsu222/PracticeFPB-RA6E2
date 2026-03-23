@@ -408,10 +408,19 @@ FSP Configuration
       Callback: g_irq9_callback
       Pin Interrupt Priority: Priority 12
       
-  Thread "Blinky Thread"
-    Symbol: blinky_thread
-    Name: Blinky Thread
-    Stack size (bytes): 512
+  Thread "LED1 Thread"
+    Symbol: led1_thread
+    Name: LED1 Thread
+    Stack size (bytes): 1024
+    Priority: 1
+    Thread Context: NULL
+    Memory Allocation: Static
+    Allocate Secure Context: Enable
+    
+  Thread "LED2 Thread"
+    Symbol: led2_thread
+    Name: LED2 Thread
+    Stack size (bytes): 1024
     Priority: 1
     Thread Context: NULL
     Memory Allocation: Static
