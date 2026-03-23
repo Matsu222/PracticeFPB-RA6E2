@@ -6,12 +6,20 @@
         {
                         [0] = gpt_counter_overflow_isr, /* GPT0 COUNTER OVERFLOW (Overflow) */
             [1] = r_icu_isr, /* ICU IRQ9 (External pin interrupt 9) */
+            [2] = spi_rxi_isr, /* SPI1 RXI (Receive buffer full) */
+            [3] = spi_txi_isr, /* SPI1 TXI (Transmit buffer empty) */
+            [4] = spi_tei_isr, /* SPI1 TEI (Transmission complete event) */
+            [5] = spi_eri_isr, /* SPI1 ERI (Error) */
         };
         #if BSP_FEATURE_ICU_HAS_IELSR
         const bsp_interrupt_event_t g_interrupt_event_link_select[BSP_ICU_VECTOR_NUM_ENTRIES] =
         {
             [0] = BSP_PRV_VECT_ENUM(EVENT_GPT0_COUNTER_OVERFLOW,GROUP0), /* GPT0 COUNTER OVERFLOW (Overflow) */
             [1] = BSP_PRV_VECT_ENUM(EVENT_ICU_IRQ9,GROUP1), /* ICU IRQ9 (External pin interrupt 9) */
+            [2] = BSP_PRV_VECT_ENUM(EVENT_SPI1_RXI,GROUP2), /* SPI1 RXI (Receive buffer full) */
+            [3] = BSP_PRV_VECT_ENUM(EVENT_SPI1_TXI,GROUP3), /* SPI1 TXI (Transmit buffer empty) */
+            [4] = BSP_PRV_VECT_ENUM(EVENT_SPI1_TEI,GROUP4), /* SPI1 TEI (Transmission complete event) */
+            [5] = BSP_PRV_VECT_ENUM(EVENT_SPI1_ERI,GROUP5), /* SPI1 ERI (Error) */
         };
         #endif
         #endif

@@ -116,10 +116,10 @@ FSP Configuration
       P013 54 ADC0_AN011 ARDUINO_A5 - - "Analog mode" - - "ADC0: AN011" - I - - 
       P014 53 GPIO PMOD2_GPIO1 - - "Input mode" - - "ADC0: AN012; DAC120: DA0" - IO - - 
       P015 52 GPIO PMOD2_GPIO2 - None "Input mode" - - "ADC0: AN013; DAC121: DA1; IRQ: IRQ13" - IO - - 
-      P100 48 I3C/IIC_I3C_SCL I3C_SCL_ARDUINO_SCL H None "Peripheral mode" - - "AGT0: AGTIO0; GPT5: GTIOC5B; GPT_POEGA: GTETRGA; I3C/IIC: I3C_SCL; IRQ: IRQ2; QSPI: QSPCLK; SCI0: RXD0; SPI1: MISO1; SSIE: AUDIO_CLK" - IO - - 
-      P101 47 I3C/IIC_I3C_SDA I3C_SDA_ARDUINO_SDA H None "Peripheral mode" - - "AGT0: AGTEE0; GPT5: GTIOC5A; GPT_POEGB: GTETRGB; I3C/IIC: I3C_SDA; IRQ: IRQ1; QSPI: QIO1; SCI0: TXD0; SPI1: MOSI1" - IO - - 
-      P102 46 SCI0_SCK0 PMOD2_SCK H - "Peripheral mode" - - "ADC0(Digital): ADTRG0; AGT0: AGTO0; CANFD0: CRX0; GPT2: GTIOC2B; GPT_OPS: GTOWLO; QSPI: QIO0; SCI0: SCK0; SPI1: RSPCK1; SSIE0: SSIBCK0" - IO - - 
-      P103 45 - - - - Disabled - - "CANFD0: CTX0; GPT2: GTIOC2A; GPT_OPS: GTOWUP; QSPI: QIO3; SCI0: CTS_RTS0; SPI1: SSLB0; SSIE0: SSIFS0; SSIE0: SSILRCK0" - なし - - 
+      P100 48 SPI1_MISO1 SPI1_MISO M None "Peripheral mode" - - "AGT0: AGTIO0; GPT5: GTIOC5B; GPT_POEGA: GTETRGA; I3C/IIC: I3C_SCL; IRQ: IRQ2; QSPI: QSPCLK; SCI0: RXD0; SPI1: MISO1; SSIE: AUDIO_CLK" - IO - - 
+      P101 47 SPI1_MOSI1 SPI1_MOSI M None "Peripheral mode" - - "AGT0: AGTEE0; GPT5: GTIOC5A; GPT_POEGB: GTETRGB; I3C/IIC: I3C_SDA; IRQ: IRQ1; QSPI: QIO1; SCI0: TXD0; SPI1: MOSI1" - IO - - 
+      P102 46 SPI1_RSPCK1 SPI1_SCLK L - "Peripheral mode" - - "ADC0(Digital): ADTRG0; AGT0: AGTO0; CANFD0: CRX0; GPT2: GTIOC2B; GPT_OPS: GTOWLO; QSPI: QIO0; SCI0: SCK0; SPI1: RSPCK1; SSIE0: SSIBCK0" - IO - - 
+      P103 45 SPI1_SSLB0 SPI1_SS M - "Peripheral mode" - - "CANFD0: CTX0; GPT2: GTIOC2A; GPT_OPS: GTOWUP; QSPI: QIO3; SCI0: CTS_RTS0; SPI1: SSLB0; SSIE0: SSIFS0; SSIE0: SSILRCK0" - IO - - 
       P104 44 - - - - Disabled - - "AGT1: AGTIO1; GPT1: GTIOC1B; GPT_POEGB: GTETRGB; IRQ: IRQ1; QSPI: QIO2; SPI1: SSLB1" - なし - - 
       P105 43 GPIO ARDUINO_D2 - None "Input mode" - - "GPT1: GTIOC1A; GPT_POEGA: GTETRGA; IRQ: IRQ0; SPI1: SSLB2" - IO - - 
       P106 42 GPIO PMOD1_GPIO1 - - "Input mode" - - "AGT0: AGTOB0; SPI1: SSLB3" - IO - - 
@@ -181,10 +181,10 @@ FSP Configuration
       P013 54 - ARDUINO_A5 - - Disabled - - "ADC0: AN011" - I - - 
       P014 53 - PMOD2_GPIO1 - - Disabled - - "ADC0: AN012; DAC120: DA0" - IO - - 
       P015 52 - PMOD2_GPIO2 - None Disabled - - "ADC0: AN013; DAC121: DA1; IRQ: IRQ13" - IO - - 
-      P100 48 - I3C_SCL_ARDUINO_SCL L None Disabled - - "AGT0: AGTIO0; GPT5: GTIOC5B; GPT_POEGA: GTETRGA; I3C/IIC: I3C_SCL; IRQ: IRQ2; QSPI: QSPCLK; SCI0: RXD0; SPI1: MISO1; SSIE: AUDIO_CLK" - IO - - 
-      P101 47 - I3C_SDA_ARDUINO_SDA L None Disabled - - "AGT0: AGTEE0; GPT5: GTIOC5A; GPT_POEGB: GTETRGB; I3C/IIC: I3C_SDA; IRQ: IRQ1; QSPI: QIO1; SCI0: TXD0; SPI1: MOSI1" - IO - - 
-      P102 46 - PMOD2_SCK L - Disabled - - "ADC0(Digital): ADTRG0; AGT0: AGTO0; CANFD0: CRX0; GPT2: GTIOC2B; GPT_OPS: GTOWLO; QSPI: QIO0; SCI0: SCK0; SPI1: RSPCK1; SSIE0: SSIBCK0" - IO - - 
-      P103 45 - - - - Disabled - - "CANFD0: CTX0; GPT2: GTIOC2A; GPT_OPS: GTOWUP; QSPI: QIO3; SCI0: CTS_RTS0; SPI1: SSLB0; SSIE0: SSIFS0; SSIE0: SSILRCK0" - なし - - 
+      P100 48 - SPI1_MISO L None Disabled - - "AGT0: AGTIO0; GPT5: GTIOC5B; GPT_POEGA: GTETRGA; I3C/IIC: I3C_SCL; IRQ: IRQ2; QSPI: QSPCLK; SCI0: RXD0; SPI1: MISO1; SSIE: AUDIO_CLK" - IO - - 
+      P101 47 - SPI1_MOSI L None Disabled - - "AGT0: AGTEE0; GPT5: GTIOC5A; GPT_POEGB: GTETRGB; I3C/IIC: I3C_SDA; IRQ: IRQ1; QSPI: QIO1; SCI0: TXD0; SPI1: MOSI1" - IO - - 
+      P102 46 - SPI1_SCLK L - Disabled - - "ADC0(Digital): ADTRG0; AGT0: AGTO0; CANFD0: CRX0; GPT2: GTIOC2B; GPT_OPS: GTOWLO; QSPI: QIO0; SCI0: SCK0; SPI1: RSPCK1; SSIE0: SSIBCK0" - IO - - 
+      P103 45 - SPI1_SS L - Disabled - - "CANFD0: CTX0; GPT2: GTIOC2A; GPT_OPS: GTOWUP; QSPI: QIO3; SCI0: CTS_RTS0; SPI1: SSLB0; SSIE0: SSIFS0; SSIE0: SSILRCK0" - IO - - 
       P104 44 - - - - Disabled - - "AGT1: AGTIO1; GPT1: GTIOC1B; GPT_POEGB: GTETRGB; IRQ: IRQ1; QSPI: QIO2; SPI1: SSLB1" - なし - - 
       P105 43 - ARDUINO_D2 - None Disabled - - "GPT1: GTIOC1A; GPT_POEGA: GTETRGA; IRQ: IRQ0; SPI1: SSLB2" - IO - - 
       P106 42 - PMOD1_GPIO1 - - Disabled - - "AGT0: AGTOB0; SPI1: SSLB3" - IO - - 
@@ -253,6 +253,11 @@ FSP Configuration
     
   Module "External IRQ (r_icu)"
     Parameter Checking: Default (BSP)
+    
+  Module "SPI (r_spi)"
+    Parameter Checking: Default (BSP)
+    Enable Support for using a transfer API: Enabled
+    Enable Transmitting from RXI Interrupt: Disabled
     
   FreeRTOS
     General: Custom FreeRTOSConfig.h: 
@@ -408,6 +413,32 @@ FSP Configuration
       Callback: g_irq9_callback
       Pin Interrupt Priority: Priority 12
       
+    Instance "g_spi1 SPI (r_spi)"
+      Name: g_spi1
+      Channel: 1
+      Receive Interrupt Priority: Priority 14
+      Transmit Buffer Empty Interrupt Priority: Priority 14
+      Transfer Complete Interrupt Priority: Priority 12
+      Error Interrupt Priority: Priority 12
+      Operating Mode: Slave
+      Clock Phase: Data sampling on odd edge, data variation on even edge
+      Clock Polarity: Low when idle
+      Mode Fault Error: Disable
+      Bit Order: MSB First
+      Callback: spi1_callback
+      SPI Mode: Clock Synchronous Operation
+      SPI burst transfer without delay between frames: Disable
+      Full or Transmit Only Mode: Full Duplex
+      Slave Select Polarity: Active Low
+      Select SSL(Slave Select): SSL0
+      MOSI Idle State: MOSI Idle Value Fixing Disable
+      Parity Mode: Disabled
+      Byte Swapping: Disable
+      Bitrate: 16000000
+      Clock Delay: 1 Clock
+      SSL Negation Delay: 1 Clock
+      Next Access Delay: 1 Clock
+      
   Thread "LED1 Thread"
     Symbol: led1_thread
     Name: LED1 Thread
@@ -420,6 +451,15 @@ FSP Configuration
   Thread "LED2 Thread"
     Symbol: led2_thread
     Name: LED2 Thread
+    Stack size (bytes): 1024
+    Priority: 1
+    Thread Context: NULL
+    Memory Allocation: Static
+    Allocate Secure Context: Enable
+    
+  Thread "SPI SLV Thread"
+    Symbol: spi_slv_thread
+    Name: SPI SLV Thread
     Stack size (bytes): 1024
     Priority: 1
     Thread Context: NULL

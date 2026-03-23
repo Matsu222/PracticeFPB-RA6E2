@@ -77,7 +77,7 @@ extern "C" {
             (((RA_NOT_DEFINED > 0) ? 0U : 1U) << 3) /* CEC */ | \
             (((RA_NOT_DEFINED > 0) ? 0U : 1U) << 4) /* I3C0 */ | \
             (((RA_NOT_DEFINED > 0) ? 0U : 1U) << 11) /* USBFS */ | \
-            (((RA_NOT_DEFINED > 0) ? 0U : 1U) << 18) /* SPI1 */ | \
+            (((1 > 0) ? 0U : 1U) << 18) /* SPI1 */ | \
             (((RA_NOT_DEFINED > 0) ? 0U : 1U) << 19) /* SPI0 */ | \
             (((RA_NOT_DEFINED > 0) ? 0U : 1U) << 22) /* SCI9 */ | \
             (((RA_NOT_DEFINED > 0) ? 0U : 1U) << 31) /* SCI0 */ | \
