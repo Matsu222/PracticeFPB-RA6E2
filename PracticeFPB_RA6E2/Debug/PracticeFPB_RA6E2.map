@@ -253,37 +253,37 @@
      234      234       80     4         ./src/spi_slv_thread_entry.o:(.text.spi_slv_thread_entry)
      234      234        0     1                 $t
      235      235       80     1                 spi_slv_thread_entry
-     2b4      2b4       82     2         ./src/spi_slv_thread_entry.o:(.text.spi1_callback)
+     2b4      2b4       80     2         ./src/spi_slv_thread_entry.o:(.text.spi1_callback)
      2b4      2b4        0     1                 $t
-     2b5      2b5       82     1                 spi1_callback
-     336      336       8c     2         ./src/spi_slv_thread_entry.o:(.text.g_timer1_callback)
-     336      336        0     1                 $t
-     337      337       8c     1                 g_timer1_callback
-     3c2      3c2       20     2         ./src/timer.o:(.text.g_timer0_callback)
-     3c2      3c2        0     1                 $t
-     3c3      3c3       20     1                 g_timer0_callback
-     3e2      3e2        2     2         ./ra_gen/common_data.o:(.text.g_common_init)
+     2b5      2b5       80     1                 spi1_callback
+     334      334       8c     2         ./src/spi_slv_thread_entry.o:(.text.g_timer1_callback)
+     334      334        0     1                 $t
+     335      335       8c     1                 g_timer1_callback
+     3c0      3c0       20     2         ./src/timer.o:(.text.g_timer0_callback)
+     3c0      3c0        0     1                 $t
+     3c1      3c1       20     1                 g_timer0_callback
+     3e0      3e0        2     2         ./ra_gen/common_data.o:(.text.g_common_init)
+     3e0      3e0        0     1                 $t
+     3e1      3e1        2     1                 g_common_init
+     3e2      3e2        4     2         ./ra_gen/hal_data.o:(.text.g_hal_init)
      3e2      3e2        0     1                 $t
-     3e3      3e3        2     1                 g_common_init
-     3e4      3e4        4     2         ./ra_gen/hal_data.o:(.text.g_hal_init)
-     3e4      3e4        0     1                 $t
-     3e5      3e5        4     1                 g_hal_init
-     3e8      3e8       6a     2         ./ra_gen/led1_thread.o:(.text.led1_thread_create)
-     3e8      3e8        0     1                 $t
-     3e9      3e9       6a     1                 led1_thread_create
-     452      452       12     2         ./ra_gen/led1_thread.o:(.text.led1_thread_func)
-     452      452        0     1                 $t
-     453      453       12     1                 led1_thread_func
-     464      464       6a     2         ./ra_gen/led2_thread.o:(.text.led2_thread_create)
-     464      464        0     1                 $t
-     465      465       6a     1                 led2_thread_create
-     4ce      4ce       12     2         ./ra_gen/led2_thread.o:(.text.led2_thread_func)
-     4ce      4ce        0     1                 $t
-     4cf      4cf       12     1                 led2_thread_func
-     4e0      4e0        4     2         ./ra_gen/main.o:(.text.rtos_startup_err_callback_internal)
-     4e0      4e0        0     1                 $t
-     4e1      4e1        4     1                 rtos_startup_err_callback_internal
-     4e1      4e1        4     1                 rtos_startup_err_callback
+     3e3      3e3        4     1                 g_hal_init
+     3e6      3e6       6a     2         ./ra_gen/led1_thread.o:(.text.led1_thread_create)
+     3e6      3e6        0     1                 $t
+     3e7      3e7       6a     1                 led1_thread_create
+     450      450       12     2         ./ra_gen/led1_thread.o:(.text.led1_thread_func)
+     450      450        0     1                 $t
+     451      451       12     1                 led1_thread_func
+     462      462       6a     2         ./ra_gen/led2_thread.o:(.text.led2_thread_create)
+     462      462        0     1                 $t
+     463      463       6a     1                 led2_thread_create
+     4cc      4cc       12     2         ./ra_gen/led2_thread.o:(.text.led2_thread_func)
+     4cc      4cc        0     1                 $t
+     4cd      4cd       12     1                 led2_thread_func
+     4de      4de        4     2         ./ra_gen/main.o:(.text.rtos_startup_err_callback_internal)
+     4de      4de        0     1                 $t
+     4df      4df        4     1                 rtos_startup_err_callback_internal
+     4df      4df        4     1                 rtos_startup_err_callback
      4e4      4e4       62     4         ./ra_gen/main.o:(.text.rtos_startup_common_init)
      4e4      4e4        0     1                 $t
      4e5      4e5       62     1                 rtos_startup_common_init
@@ -955,46 +955,46 @@
     13fc     13fc      4c8     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.debug_frame)
     18c4     18c4      24c     4         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.debug_frame)
     1b10     1b10       24     4         C:\Renesas\e2_studio\toolchains\llvm_arm\ATfE-21.1.1-Windows-x86_64\bin\..\lib\clang-runtimes/arm-none-eabi/armv8m.main_hard_fp_exn_rtti_unaligned_size\lib\libc.a(libc_picolib_machine_arm_read_tp.S.o):(.debug_frame)
-       0        0     7cda     1 .debug_line
+       0        0     7cb2     1 .debug_line
        0        0       d9     1         ./src/ext_irq.o:(.debug_line)
       d9       d9       6e     1         ./src/hal_entry.o:(.debug_line)
      147      147      119     1         ./src/hal_warmstart.o:(.debug_line)
      260      260      116     1         ./src/led1_thread_entry.o:(.debug_line)
      376      376      126     1         ./src/led2_thread_entry.o:(.debug_line)
-     49c      49c      271     1         ./src/spi_slv_thread_entry.o:(.debug_line)
-     70d      70d       e1     1         ./src/timer.o:(.debug_line)
-     7ee      7ee      139     1         ./ra_gen/common_data.o:(.debug_line)
-     927      927      164     1         ./ra_gen/hal_data.o:(.debug_line)
-     a8b      a8b      139     1         ./ra_gen/led1_thread.o:(.debug_line)
-     bc4      bc4      139     1         ./ra_gen/led2_thread.o:(.debug_line)
-     cfd      cfd      1cc     1         ./ra_gen/main.o:(.debug_line)
-     ec9      ec9       bc     1         ./ra_gen/pin_data.o:(.debug_line)
-     f85      f85      139     1         ./ra_gen/spi_slv_thread.o:(.debug_line)
-    10be     10be       9f     1         ./ra_gen/vector_data.o:(.debug_line)
-    115d     115d      3c5     1         ./ra/fsp/src/rm_freertos_port/port.o:(.debug_line)
-    1522     1522      d30     1         ./ra/fsp/src/r_spi/r_spi.o:(.debug_line)
-    2252     2252      570     1         ./ra/fsp/src/r_ioport/r_ioport.o:(.debug_line)
-    27c2     27c2      2c1     1         ./ra/fsp/src/r_icu/r_icu.o:(.debug_line)
-    2a83     2a83      c7c     1         ./ra/fsp/src/r_gpt/r_gpt.o:(.debug_line)
-    36ff     36ff       a7     1         ./ra/fsp/src/bsp/mcu/ra6e2/bsp_linker.o:(.debug_line)
-    37a6     37a6      4b3     1         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.debug_line)
-    3c59     3c59      10e     1         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.debug_line)
-    3d67     3d67      14c     1         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.debug_line)
-    3eb3     3eb3      135     1         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.debug_line)
-    3fe8     3fe8       8e     1         ./ra/fsp/src/bsp/mcu/all/bsp_io.o:(.debug_line)
-    4076     4076       fc     1         ./ra/fsp/src/bsp/mcu/all/bsp_irq.o:(.debug_line)
-    4172     4172      116     1         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.debug_line)
-    4288     4288       b3     1         ./ra/fsp/src/bsp/mcu/all/bsp_sbrk.o:(.debug_line)
-    433b     433b       bf     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o:(.debug_line)
-    43fa     43fa      18f     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.debug_line)
-    4589     4589       6e     1         ./ra/board/ra6e2_fpb/board_init.o:(.debug_line)
-    45f7     45f7       a7     1         ./ra/board/ra6e2_fpb/board_leds.o:(.debug_line)
-    469e     469e      3e0     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.o:(.debug_line)
-    4a7e     4a7e      1d6     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.debug_line)
-    4c54     4c54      d1f     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.debug_line)
-    5973     5973      9b2     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.o:(.debug_line)
-    6325     6325     1372     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.debug_line)
-    7697     7697      643     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.debug_line)
+     49c      49c      249     1         ./src/spi_slv_thread_entry.o:(.debug_line)
+     6e5      6e5       e1     1         ./src/timer.o:(.debug_line)
+     7c6      7c6      139     1         ./ra_gen/common_data.o:(.debug_line)
+     8ff      8ff      164     1         ./ra_gen/hal_data.o:(.debug_line)
+     a63      a63      139     1         ./ra_gen/led1_thread.o:(.debug_line)
+     b9c      b9c      139     1         ./ra_gen/led2_thread.o:(.debug_line)
+     cd5      cd5      1cc     1         ./ra_gen/main.o:(.debug_line)
+     ea1      ea1       bc     1         ./ra_gen/pin_data.o:(.debug_line)
+     f5d      f5d      139     1         ./ra_gen/spi_slv_thread.o:(.debug_line)
+    1096     1096       9f     1         ./ra_gen/vector_data.o:(.debug_line)
+    1135     1135      3c5     1         ./ra/fsp/src/rm_freertos_port/port.o:(.debug_line)
+    14fa     14fa      d30     1         ./ra/fsp/src/r_spi/r_spi.o:(.debug_line)
+    222a     222a      570     1         ./ra/fsp/src/r_ioport/r_ioport.o:(.debug_line)
+    279a     279a      2c1     1         ./ra/fsp/src/r_icu/r_icu.o:(.debug_line)
+    2a5b     2a5b      c7c     1         ./ra/fsp/src/r_gpt/r_gpt.o:(.debug_line)
+    36d7     36d7       a7     1         ./ra/fsp/src/bsp/mcu/ra6e2/bsp_linker.o:(.debug_line)
+    377e     377e      4b3     1         ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o:(.debug_line)
+    3c31     3c31      10e     1         ./ra/fsp/src/bsp/mcu/all/bsp_common.o:(.debug_line)
+    3d3f     3d3f      14c     1         ./ra/fsp/src/bsp/mcu/all/bsp_delay.o:(.debug_line)
+    3e8b     3e8b      135     1         ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o:(.debug_line)
+    3fc0     3fc0       8e     1         ./ra/fsp/src/bsp/mcu/all/bsp_io.o:(.debug_line)
+    404e     404e       fc     1         ./ra/fsp/src/bsp/mcu/all/bsp_irq.o:(.debug_line)
+    414a     414a      116     1         ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o:(.debug_line)
+    4260     4260       b3     1         ./ra/fsp/src/bsp/mcu/all/bsp_sbrk.o:(.debug_line)
+    4313     4313       bf     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o:(.debug_line)
+    43d2     43d2      18f     1         ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o:(.debug_line)
+    4561     4561       6e     1         ./ra/board/ra6e2_fpb/board_init.o:(.debug_line)
+    45cf     45cf       a7     1         ./ra/board/ra6e2_fpb/board_leds.o:(.debug_line)
+    4676     4676      3e0     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.o:(.debug_line)
+    4a56     4a56      1d6     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/list.o:(.debug_line)
+    4c2c     4c2c      d1f     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o:(.debug_line)
+    594b     594b      9b2     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.o:(.debug_line)
+    62fd     62fd     1372     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o:(.debug_line)
+    766f     766f      643     1         ./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o:(.debug_line)
        0        0     118d     1 .debug_line_str
        0        0     118d     1         <internal>:(.debug_line_str)
        0        0      919     1 .debug_rnglists
